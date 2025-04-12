@@ -734,8 +734,8 @@
           "new_cruise": true
         },
         {
-          "port_name": "Charlotte Amalie",
-          "country": "Saint Thomas, USVI",
+          "port_name": "Charlotte Amalie (St Thomas)",
+          "country": "US Virgin Islands",
           "date_arriving": "2025-12-08",
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2025-12-08",
@@ -1038,6 +1038,213 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2025-09-19",
           "date_leaving_time": "11:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2025-09-21",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-21",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Rhodes",
+          "country": "Greece",
+          "date_arriving": "2025-09-22",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-22",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bodrum",
+          "country": "Turkiye",
+          "date_arriving": "2025-09-23",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-09-23",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Samos",
+          "country": "Greece",
+          "date_arriving": "2025-09-24",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-09-24",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Paros",
+          "country": "Greece",
+          "date_arriving": "2025-09-25",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-25",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pireaus (Athens)",
+          "country": "Greece",
+          "date_arriving": "2025-09-26",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-09-26",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Skiathos",
+          "country": "Greece",
+          "date_arriving": "2025-09-27",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-27",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2025-09-28",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-28",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos",
+          "country": "Greece",
+          "date_arriving": "2025-09-29",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-09-29",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Agios Nikolaos (Crete)",
+          "country": "Greece",
+          "date_arriving": "2025-09-30",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-30",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Marmaris",
+          "country": "Turkiye",
+          "date_arriving": "2025-10-01",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-10-01",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Antalya",
+          "country": "Turkiye",
+          "date_arriving": "2025-10-02",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-02",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Paphos",
+          "country": "Cyprus",
+          "date_arriving": "2025-10-03",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-03",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kusadasi (Ephesus)",
+          "country": "Turkiye",
+          "date_arriving": "2025-10-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-05",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mytilene (Lesbos)",
+          "country": "Greece",
+          "date_arriving": "2025-10-06",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-10-06",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Istanbul",
+          "country": "Turkiye",
+          "date_arriving": "2025-10-08",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-10-09",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2025-10-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-11",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2025-10-12",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-12",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Corfu",
+          "country": "Greece",
+          "date_arriving": "2025-10-14",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-10-14",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Gallipoli",
+          "country": "Turkiye",
+          "date_arriving": "2025-10-15",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-10-15",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hvar",
+          "country": "Croatia",
+          "date_arriving": "2025-10-16",
+          "date_arriving_time": "12:00 PM",
+          "date_leaving": "2025-10-16",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pula",
+          "country": "Croatia",
+          "date_arriving": "2025-10-17",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-10-17",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Fusina (Venice)",
+          "country": "Italy",
+          "date_arriving": "2025-10-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-10-18",
+          "date_leaving_time": null,
           "new_cruise": true
         }
       ]
