@@ -1,0 +1,1046 @@
+{
+  "ships": [
+    {
+      "name": "Explora II",
+      "voyage_id": "voyage-ox-2025-03",
+      "itinerary": [
+        {
+          "port_name": "Lisbon",
+          "country": "Portugal",
+          "date_arriving": "2025-03-28",
+          "date_arriving_time": null,
+          "date_leaving": "2025-03-29",
+          "date_leaving_time": "3:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Cadiz",
+          "country": "Spain",
+          "date_arriving": "2025-03-30",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-03-30",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Malaga",
+          "country": "Spain",
+          "date_arriving": "2025-03-31",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-03-31",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Palma de Mallorca",
+          "country": "Spain",
+          "date_arriving": "2025-04-02",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-02",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-04-03",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-04-03",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Motril",
+          "country": "Spain",
+          "date_arriving": "2025-04-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-04-05",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tangier",
+          "country": "Morocco",
+          "date_arriving": "2025-04-06",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-04-06",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Casablanca",
+          "country": "Morocco",
+          "date_arriving": "2025-04-07",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-04-07",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santa Cruz de Tenerife",
+          "country": "Spain",
+          "date_arriving": "2025-04-09",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-09",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Arrecife (Lanzarote)",
+          "country": "Spain",
+          "date_arriving": "2025-04-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-04-10",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Gibraltar",
+          "country": "UK",
+          "date_arriving": "2025-04-12",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-12",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-04-14",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-04-14",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Alicante",
+          "country": "Spain",
+          "date_arriving": "2025-04-15",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-15",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ibiza",
+          "country": "Spain",
+          "date_arriving": "2025-04-16",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-16",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cagliari (Sardinia)",
+          "country": "Italy",
+          "date_arriving": "2025-04-18",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-04-18",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "La Goulette",
+          "country": "Tunisia",
+          "date_arriving": "2025-04-19",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-04-19",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Messina (Sicily)",
+          "country": "Italy",
+          "date_arriving": "2025-04-21",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-04-21",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Naples",
+          "country": "Italy",
+          "date_arriving": "2025-04-22",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-04-22",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Civitavecchia (Rome)",
+          "country": "Italy",
+          "date_arriving": "2025-04-23",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-04-23",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Valencia",
+          "country": "Spain",
+          "date_arriving": "2025-04-25",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-04-25",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Casablanca",
+          "country": "Morocco",
+          "date_arriving": "2025-04-27",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-04-28",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Gibraltar",
+          "country": "UK",
+          "date_arriving": "2025-04-30",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-04-30",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Motril",
+          "country": "Spain",
+          "date_arriving": "2025-05-01",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-01",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ibiza",
+          "country": "Spain",
+          "date_arriving": "2025-05-03",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-05-03",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-05-04",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-04",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Malaga",
+          "country": "Spain",
+          "date_arriving": "2025-05-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-06",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Lisbon",
+          "country": "Portugal",
+          "date_arriving": "2025-05-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-09",
+          "date_leaving_time": "2:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cadiz",
+          "country": "Spain",
+          "date_arriving": "2025-05-10",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-05-10",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tangier",
+          "country": "Morocco",
+          "date_arriving": "2025-05-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-11",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-05-13",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-13",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Mahon (Menorca)",
+          "country": "Spain",
+          "date_arriving": "2025-05-14",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-14",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Saint Tropez",
+          "country": "France",
+          "date_arriving": "2025-05-16",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-16",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ajaccio (Corsica)",
+          "country": "France",
+          "date_arriving": "2025-05-17",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-17",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Porto Cervo (Sardinia)",
+          "country": "Italy",
+          "date_arriving": "2025-05-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-18",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Livorno (Florence)",
+          "country": "Italy",
+          "date_arriving": "2025-05-19",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-19",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Civitavecchia (Rome)",
+          "country": "Italy",
+          "date_arriving": "2025-05-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-05-20",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Monte Carlo",
+          "country": "Monaco",
+          "date_arriving": "2025-05-21",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-05-21",
+          "date_leaving_time": null,
+          "new_cruise": true
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-06-30",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-06-30",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Ibiza",
+          "country": "Spain",
+          "date_arriving": "2025-07-01",
+          "date_arriving_time": "11:00 AM",
+          "date_leaving": "2025-07-02",
+          "date_leaving_time": "4:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Marseille",
+          "country": "France",
+          "date_arriving": "2025-07-03",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-03",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Villefranche Sur Mer",
+          "country": "France",
+          "date_arriving": "2025-07-04",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-04",
+          "date_leaving_time": "11:45 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Genoa",
+          "country": "Italy",
+          "date_arriving": "2025-07-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-07-05",
+          "date_leaving_time": "3:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Portofino",
+          "country": "Italy",
+          "date_arriving": "2025-07-05",
+          "date_arriving_time": "6:00 PM",
+          "date_leaving": "2025-07-05",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Porto Santo Stefano (Argentario)",
+          "country": "Argentario, Italy",
+          "date_arriving": "2025-07-06",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-06",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Civitavecchia (Rome)",
+          "country": "Rome, Italy",
+          "date_arriving": "2025-07-07",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-07-07",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Naples",
+          "country": "Italy",
+          "date_arriving": "2025-07-08",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-08",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Trapani (Sicily)",
+          "country": "Italy",
+          "date_arriving": "2025-07-09",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-09",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "La Goulette",
+          "country": "Tunisia",
+          "date_arriving": "2025-07-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-07-10",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Carloforte",
+          "country": "Sardinia, Italy",
+          "date_arriving": "2025-07-11",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-11",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Palma De Mallorca",
+          "country": "Spain",
+          "date_arriving": "2025-07-13",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-13",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-07-14",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-07-14",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Saint Tropez",
+          "country": "France",
+          "date_arriving": "2025-07-16",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-16",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Monte Carlo",
+          "country": "Monaco",
+          "date_arriving": "2025-07-17",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-17",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ajaccio (Corsica)",
+          "country": "France",
+          "date_arriving": "2025-07-18",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-18",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Porto Cervo (Sardinia)",
+          "country": "Italy",
+          "date_arriving": "2025-07-19",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-19",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Livorno (Florence)",
+          "country": "Italy",
+          "date_arriving": "2025-07-20",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-20",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Civitavecchia (Rome)",
+          "country": "Italy",
+          "date_arriving": "2025-07-21",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-07-21",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Sorrento",
+          "country": "Italy",
+          "date_arriving": "2025-07-22",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-07-22",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Messina (Sicily)",
+          "country": "Italy",
+          "date_arriving": "2025-07-23",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-23",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cagliari (Sardinia)",
+          "country": "Italy",
+          "date_arriving": "2025-07-25",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-07-25",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Alghero (Sardinia)",
+          "country": "Italy",
+          "date_arriving": "2025-07-26",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-07-26",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mahon (Menorca)",
+          "country": "Spain",
+          "date_arriving": "2025-07-27",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-07-27",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-07-28",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-07-28",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-11-02",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-02",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Tangier",
+          "country": "Morocco",
+          "date_arriving": "2025-11-04",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-04",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Lisbon",
+          "country": "Portugal",
+          "date_arriving": "2025-11-05",
+          "date_arriving_time": "3:00 PM",
+          "date_leaving": "2025-11-06",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Malaga",
+          "country": "Spain",
+          "date_arriving": "2025-11-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-08",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Valencia",
+          "country": "Spain",
+          "date_arriving": "2025-11-10",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-11-10",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-11-11",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-11-11",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Tangier",
+          "country": "Morocco",
+          "date_arriving": "2025-11-13",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-13",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Las Palmas de Gran Canaria",
+          "country": "Spain",
+          "date_arriving": "2025-11-15",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-11-15",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bridgetown",
+          "country": "Barbados",
+          "date_arriving": "2025-11-22",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-11-22",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Pointe-a-Pitre",
+          "country": "Guadeloupe",
+          "date_arriving": "2025-11-23",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-11-23",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St John’s",
+          "country": "Antigua and Barbuda",
+          "date_arriving": "2025-11-24",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-24",
+          "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Charlotte Amalie (St Thomas)",
+          "country": "US Virgin Islands",
+          "date_arriving": "2025-11-25",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-11-25",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Miami",
+          "country": "USA",
+          "date_arriving": "2025-11-28",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-11-28",
+          "date_leaving_time": null,
+          "new_cruise": true
+        },
+        {
+          "port_name": "Cozumel",
+          "country": "Mexico",
+          "date_arriving": "2025-11-30",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-11-30",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Belize City",
+          "country": "Belize",
+          "date_arriving": "2025-12-01",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-12-01",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santo Tomas de Castilla",
+          "country": "Guatemala",
+          "date_arriving": "2025-12-02",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-12-02",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Key West",
+          "country": "USA",
+          "date_arriving": "2025-12-04",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-12-04",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Miami",
+          "country": "USA",
+          "date_arriving": "2025-12-05",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-12-05",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Charlotte Amalie",
+          "country": "Saint Thomas, USVI",
+          "date_arriving": "2025-12-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-12-08",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pointe-a-Pitre",
+          "country": "Guadeloupe",
+          "date_arriving": "2025-12-09",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-12-09",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Roseau",
+          "country": "Dominica",
+          "date_arriving": "2025-12-10",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-12-10",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Castries",
+          "country": "Saint Lucia",
+          "date_arriving": "2025-12-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-12-11",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St George’s",
+          "country": "Grenada",
+          "date_arriving": "2025-12-12",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-12-12",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kingstown",
+          "country": "Saint Vincent and the Grenadines",
+          "date_arriving": "2025-12-13",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-12-13",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bridgetown",
+          "country": "Barbados",
+          "date_arriving": "2025-12-14",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-12-14",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        }
+      ]
+    },
+    {
+      "name": "Seabourn Sojourn",
+      "itinerary": [
+        {
+          "port_name": "Greenock",
+          "country": "Scotland",
+          "date_arriving": "2025-08-02",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-08-02",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Belfast",
+          "country": "Northern Ireland",
+          "date_arriving": "2025-08-03",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-03",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Oban",
+          "country": "Scotland",
+          "date_arriving": "2025-08-04",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-08-04",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Leith (Edinburgh)",
+          "country": "Scotland",
+          "date_arriving": "2025-08-06",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2025-08-07",
+          "date_leaving_time": "7:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Great Yarmouth",
+          "country": "England",
+          "date_arriving": "2025-08-08",
+          "date_arriving_time": "10:30 AM",
+          "date_leaving": "2025-08-08",
+          "date_leaving_time": "4:30 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Dover (London)",
+          "country": "England",
+          "date_arriving": "2025-08-09",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-08-09",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Cowes (Isle of Wight)",
+          "country": "England",
+          "date_arriving": "2025-08-10",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-08-10",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Dun Laoghaire (Dublin)",
+          "country": "Ireland",
+          "date_arriving": "2025-08-12",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-12",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Holy Loch",
+          "country": "Scotland",
+          "date_arriving": "2025-08-13",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-13",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tobermory (Island of Mull)",
+          "country": "Scotland",
+          "date_arriving": "2025-08-14",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-14",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Stornoway (Isle of Lewis)",
+          "country": "Scotland",
+          "date_arriving": "2025-08-15",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-15",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Heimaey (Westman Islands)",
+          "country": "Iceland",
+          "date_arriving": "2025-08-17",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-17",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Reykjavik",
+          "country": "Iceland",
+          "date_arriving": "2025-08-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-08-18",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        }
+      ]
+    },
+    {
+      "name": "Explora I",
+      "itinerary": [
+        {
+          "port_name": "Fusina (Venice)",
+          "country": "Italy",
+          "date_arriving": "2025-09-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-09-05",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Rovinj",
+          "country": "Croatia",
+          "date_arriving": "2025-09-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-09-06",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ravenna",
+          "country": "Italy",
+          "date_arriving": "2025-09-07",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2025-09-07",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Dubrovnik",
+          "country": "Croatia",
+          "date_arriving": "2025-09-08",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2025-09-08",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Brindisi",
+          "country": "Italy",
+          "date_arriving": "2025-09-09",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-09",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Nydri (Lefkada)",
+          "country": "Greece",
+          "date_arriving": "2025-09-10",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-09-10",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pireaus (Athens)",
+          "country": "Greece",
+          "date_arriving": "2025-09-12",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-09-12",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Monemvasia",
+          "country": "Greece",
+          "date_arriving": "2025-09-13",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-13",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2025-09-14",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-15",
+          "date_leaving_time": "1:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos",
+          "country": "Greece",
+          "date_arriving": "2025-09-15",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2025-09-15",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Volos",
+          "country": "Greece",
+          "date_arriving": "2025-09-16",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-16",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Thessaloniki",
+          "country": "Greece",
+          "date_arriving": "2025-09-17",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2025-09-17",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Istanbul",
+          "country": "Turkiye",
+          "date_arriving": "2025-09-19",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2025-09-19",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": true
+        }
+      ]
+    }
+  ]
+}
