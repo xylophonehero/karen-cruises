@@ -1,7 +1,6 @@
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -62,9 +61,10 @@ export function ItineraryTable({ items }: { items: ItineraryItem[] }) {
               <TableCell>{formatDateShort(item.date_arriving)}</TableCell>
               <TableCell>{item.port_name}</TableCell>
               <TableCell>{item.country}</TableCell>
-              <TableCell>{index !== 0 && item.date_arriving_time}</TableCell>
+              <TableCell>{index !==0 && item.date_arriving_time}</TableCell>
               <TableCell>
-                {index !== items.length - 1 && item.date_leaving_time}{" "}
+                {index !== items.length - 1 && item.date_leaving_time}
+                {' '}
                 {dayDiff > 0 && `(+${dayDiff})`}
               </TableCell>
             </TableRow>
