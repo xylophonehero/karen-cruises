@@ -1248,6 +1248,155 @@
           "new_cruise": true
         }
       ]
+    },
+    {
+      "name": "Emerald Sakara",
+      "itinerary": [
+        {
+          "port_name": "Civitavecchia",
+          "country": "Italy",
+          "date_arriving": "2025-06-07",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-07",
+          "date_leaving_time": null,
+          "new_cruise": true
+        },
+        {
+          "port_name": "Sorrento",
+          "country": "Italy",
+          "date_arriving": "2025-06-08",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-09",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Capri",
+          "country": "Italy",
+          "date_arriving": "2025-06-09",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-09",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Giardini Naxos (Taormina)",
+          "country": "Italy",
+          "date_arriving": "2025-06-10",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-10",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Gallipoli",
+          "country": "Italy",
+          "date_arriving": "2025-06-11",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-11",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Fiskardo (Cephalonia Island)",
+          "country": "Greece",
+          "date_arriving": "2025-06-12",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-12",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Itea",
+          "country": "Greece",
+          "date_arriving": "2025-06-13",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-13",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piraeus (Athens)",
+          "country": "Greece",
+          "date_arriving": "2025-06-14",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-14",
+          "date_leaving_time": null,
+          "new_cruise": true
+        },
+        {
+          "port_name": "Delos",
+          "country": "Greece",
+          "date_arriving": "2025-06-15",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-15",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2025-06-15",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-15",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos (Skala Harbor)",
+          "country": "Greece",
+          "date_arriving": "2025-06-16",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-16",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kusadasi",
+          "country": "Turkey",
+          "date_arriving": "2025-06-17",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-17",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kos",
+          "country": "Greece",
+          "date_arriving": "2025-06-18",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-18",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2025-06-19",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-19",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Paros (Parikia Harbor)",
+          "country": "Greece",
+          "date_arriving": "2025-06-20",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-20",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pireaus (Athens)",
+          "country": "Greece",
+          "date_arriving": "2025-06-21",
+          "date_arriving_time": null,
+          "date_leaving": "2025-06-21",
+          "date_leaving_time": null,
+          "new_cruise": false
+        }
+      ]
     }
   ]
 }

@@ -10,6 +10,12 @@
         "date_leaving": "2025-05-21"
       },
       {
+        "id": 6,
+        "ship_name": "Emerald Sakara",
+        "date_joining": "2025-06-07",
+        "date_leaving": "2025-06-21"
+      },
+      {
         "id": 2,
         "ship_name": "Explora II",
         "date_joining": "2025-06-30",
