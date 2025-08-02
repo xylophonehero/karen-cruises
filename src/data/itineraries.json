@@ -685,7 +685,7 @@
           "date_arriving": "2025-11-28",
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2025-11-28",
-          "date_leaving_time": null,
+          "date_leaving_time": "5:00 PM",
           "new_cruise": true
         },
         {
@@ -1393,6 +1393,227 @@
           "date_arriving": "2025-06-21",
           "date_arriving_time": null,
           "date_leaving": "2025-06-21",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-10-18",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-18",
+          "date_leaving_time": null,
+          "new_cruise": true
+        },
+        {
+          "port_name": "Port‑Vendres",
+          "country": "France",
+          "date_arriving": "2025-10-19",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-19",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Palamós",
+          "country": "Spain",
+          "date_arriving": "2025-10-20",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-20",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mahon (Menorca)",
+          "country": "Spain",
+          "date_arriving": "2025-10-21",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-21",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Palma de Mallorca",
+          "country": "Spain",
+          "date_arriving": "2025-10-22",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-22",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ibiza",
+          "country": "Spain",
+          "date_arriving": "2025-10-23",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-23",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Castellón de la Plana",
+          "country": "Spain",
+          "date_arriving": "2025-10-24",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-24",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2025-10-25",
+          "date_arriving_time": null,
+          "date_leaving": "2025-10-25",
+          "date_leaving_time": null,
+          "new_cruise": true
+        }
+      ]
+    },
+    {
+      "name": "Azamara Quest",
+      "itinerary": [
+        {
+          "port_name": "Buenos Aires",
+          "country": "Argentina",
+          "date_arriving": "2026-02-08",
+          "date_arriving_time": "–",
+          "date_leaving": "2026-02-08",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Montevideo",
+          "country": "Uruguay",
+          "date_arriving": "2026-02-09",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-09",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Punta del Este",
+          "country": "Uruguay",
+          "date_arriving": "2026-02-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-10",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Port Stanley (Falkland Islands)",
+          "country": "Falkland Islands",
+          "date_arriving": "2026-02-14",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-02-14",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ushuaia",
+          "country": "Argentina",
+          "date_arriving": "2026-02-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-21",
+          "date_leaving_time": "7:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Punta Arenas",
+          "country": "Chile",
+          "date_arriving": "2026-02-22",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-02-22",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Puerto Chacabuco",
+          "country": "Chile",
+          "date_arriving": "2026-02-25",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-25",
+          "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Castro",
+          "country": "Chile",
+          "date_arriving": "2026-02-26",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-26",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Puerto Montt",
+          "country": "Chile",
+          "date_arriving": "2026-02-27",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-02-27",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "San Antonio",
+          "country": "Chile",
+          "date_arriving": "2026-03-01",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-03-02",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Coquimbo",
+          "country": "Chile",
+          "date_arriving": "2026-03-03",
+          "date_arriving_time": "11:00 AM",
+          "date_leaving": "2026-03-03",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Iquique",
+          "country": "Chile",
+          "date_arriving": "2026-03-05",
+          "date_arriving_time": "9:30 AM",
+          "date_leaving": "2026-03-05",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Arica",
+          "country": "Chile",
+          "date_arriving": "2026-03-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-06",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pisco",
+          "country": "Peru",
+          "date_arriving": "2026-03-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-08",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Callao (Lima)",
+          "country": "Peru",
+          "date_arriving": "2026-03-09",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-03-10",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Panama City (Fuerte Amador)",
+          "country": "Panama",
+          "date_arriving": "2026-03-14",
+          "date_arriving_time": "9:30 AM",
+          "date_leaving": "2026-03-15",
           "date_leaving_time": null,
           "new_cruise": false
         }
