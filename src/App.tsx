@@ -1,53 +1,56 @@
-import itineraries from "@/data/itineraries.json";
 import schedules from "@/data/schedules.json";
-import { ItineraryTable } from "./components/itinerary-table";
+import { CruiseSection } from "./components/cruise-section";
 
-const ships = itineraries.ships;
 const schedule = schedules.person.cruises;
 
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
-};
-
 function App() {
+  const today = new Date();
+
+  const upcomingCruises = schedule.filter(
+    (cruise) => new Date(cruise.date_leaving) > today,
+  );
+  const archivedCruises = schedule.filter(
+    (cruise) => new Date(cruise.date_leaving) <= today,
+  );
+
   return (
     <main className="min-h-screen bg-[#003366] text-white py-8 px-4 font-playfair">
       <div className="container mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-center text-primary">
-          Karen Worrall Upcoming Cruises
+          Karen Worrall Cruise Schedule
         </h1>
-        <div className="flex flex-col gap-4">
-          {schedule.map((ship) => (
-            <div className="flex flex-col gap-2" key={ship.id}>
-              <h2 className="text-xl font-bold text-primary">{ship.ship_name}</h2>
-              <div>
-                <span>{formatDate(ship.date_joining)}</span>
-                {" - "}
-                <span>{formatDate(ship.date_leaving)}</span>
-              </div>
-              <div>
-                <ItineraryTable
-                  items={
-                    ships
-                      .find((s) => ship.ship_name === s.name)
-                      ?.itinerary.filter(
-                        (itinerary) =>
-                          new Date(itinerary.date_arriving) >=
-                            new Date(ship.date_joining) &&
-                          new Date(itinerary.date_leaving) <=
-                            new Date(ship.date_leaving),
-                      ) ?? []
-                  }
+
+        {upcomingCruises.length > 0 && (
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-primary mb-6">
+              🚢 Upcoming Cruises
+            </h2>
+            <div className="flex flex-col gap-4">
+              {upcomingCruises.map((cruise) => (
+                <CruiseSection
+                  key={`${cruise.id}-${cruise.date_joining}`}
+                  cruise={cruise}
                 />
-              </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        )}
+
+        {archivedCruises.length > 0 && (
+          <div>
+            <h2 className="text-2xl font-bold text-gray-300 mb-6">
+              📚 Past Cruises
+            </h2>
+            <div className="flex flex-col gap-4">
+              {archivedCruises.reverse().map((cruise) => (
+                <CruiseSection
+                  key={`${cruise.id}-${cruise.date_joining}`}
+                  cruise={cruise}
+                />
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </main>
   );
