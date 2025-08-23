@@ -1,4 +1,4 @@
-import { formatDate, addSeaDays } from "@/lib/utils";
+import { formatDate } from "@/lib/utils";
 import itineraries from "@/data/itineraries.json";
 import { ItineraryTable } from "./itinerary-table";
 
@@ -27,20 +27,18 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
       <div>
         <ItineraryTable
           items={
-            addSeaDays(
-              ships
-                .find((s) => cruise.ship_name === s.name)
-                ?.itinerary.filter(
-                  (itinerary) =>
-                    new Date(itinerary.date_arriving) >=
-                      new Date(cruise.date_joining) &&
-                    new Date(itinerary.date_leaving) <=
-                      new Date(cruise.date_leaving),
-                ) ?? [],
-              cruise.date_joining,
-              cruise.date_leaving
-            )
+            ships
+              .find((s) => cruise.ship_name === s.name)
+              ?.itinerary.filter(
+                (itinerary) =>
+                  new Date(itinerary.date_arriving) >=
+                    new Date(cruise.date_joining) &&
+                  new Date(itinerary.date_leaving) <=
+                    new Date(cruise.date_leaving),
+              ) ?? []
           }
+          cruiseStartDate={cruise.date_joining}
+          cruiseEndDate={cruise.date_leaving}
         />
       </div>
     </div>

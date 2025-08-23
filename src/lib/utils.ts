@@ -25,56 +25,49 @@ interface ItineraryItem {
   is_sea_day?: boolean;
 }
 
-export function addSeaDays(items: ItineraryItem[], cruiseStartDate: string, cruiseEndDate: string): ItineraryItem[] {
-  if (items.length === 0) return [];
-  
-  const result: ItineraryItem[] = [];
+export function generateDailyItinerary(items: ItineraryItem[], cruiseStartDate: string, cruiseEndDate: string): ItineraryItem[] {
   const startDate = new Date(cruiseStartDate);
   const endDate = new Date(cruiseEndDate);
   
-  // Sort items by date to ensure correct order
-  const sortedItems = [...items].sort((a, b) => 
-    new Date(a.date_arriving).getTime() - new Date(b.date_arriving).getTime()
-  );
-  
+  // Generate array of all cruise days
+  const cruiseDays: string[] = [];
   let currentDate = new Date(startDate);
   
   while (currentDate <= endDate) {
-    const currentDateString = currentDate.toISOString().split('T')[0];
-    
-    // Find the port item that covers this date
-    const portDay = sortedItems.find(item => {
+    cruiseDays.push(currentDate.toISOString().split('T')[0]);
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+  
+  // Map through each day and determine what happens that day
+  return cruiseDays.map(dayString => {
+    // Check if there's a port that covers this day
+    const portForDay = items.find(item => {
       const arriveDate = new Date(item.date_arriving);
       const leaveDate = new Date(item.date_leaving);
-      const currentDateObj = new Date(currentDateString);
-      return currentDateObj >= arriveDate && currentDateObj <= leaveDate;
+      const currentDay = new Date(dayString);
+      return currentDay >= arriveDate && currentDay <= leaveDate;
     });
     
-    if (portDay) {
-      // Create a modified version with the current date for multi-day stays
-      result.push({
-        ...portDay,
-        date_arriving: currentDateString,
-        date_leaving: currentDateString
-      });
+    if (portForDay) {
+      // Return port entry for this day
+      return {
+        ...portForDay,
+        date_arriving: dayString,
+        date_leaving: dayString
+      };
     } else {
-      // Add sea day
-      result.push({
-        date_arriving: currentDateString,
-        date_leaving: currentDateString,
+      // Return sea day
+      return {
+        date_arriving: dayString,
+        date_leaving: dayString,
         country: "",
         port_name: "Sea Day",
         date_arriving_time: null,
         date_leaving_time: null,
         new_cruise: false,
         is_sea_day: true
-      });
+      };
     }
-    
-    // Move to next day
-    currentDate.setDate(currentDate.getDate() + 1);
-  }
-  
-  return result;
+  });
 }
 
