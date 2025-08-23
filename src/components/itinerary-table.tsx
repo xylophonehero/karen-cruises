@@ -15,6 +15,7 @@ interface ItineraryItem {
   date_arriving_time: string | null;
   date_leaving_time: string | null;
   new_cruise: boolean;
+  is_sea_day?: boolean;
 }
 
 const formatDateShort = (dateString: string) => {
@@ -59,11 +60,13 @@ export function ItineraryTable({ items }: { items: ItineraryItem[] }) {
               key={index}
             >
               <TableCell>{formatDateShort(item.date_arriving)}</TableCell>
-              <TableCell>{item.port_name}</TableCell>
-              <TableCell>{item.country}</TableCell>
-              <TableCell>{index !==0 && item.date_arriving_time}</TableCell>
               <TableCell>
-                {index !== items.length - 1 && item.date_leaving_time}
+                {item.port_name}
+              </TableCell>
+              <TableCell>{item.country}</TableCell>
+              <TableCell>{!item.is_sea_day && index !== 0 && item.date_arriving_time}</TableCell>
+              <TableCell>
+                {!item.is_sea_day && index !== items.length - 1 && item.date_leaving_time}
                 {' '}
                 {dayDiff > 0 && `(+${dayDiff})`}
               </TableCell>

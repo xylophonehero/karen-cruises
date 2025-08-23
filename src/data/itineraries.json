@@ -1510,6 +1510,15 @@
           "new_cruise": false
         },
         {
+          "port_name": "Antarctica Peninsula",
+          "country": "Antarctica",
+          "date_arriving": "2026-02-16",
+          "date_arriving_time": null,
+          "date_leaving": "2026-02-18",
+          "date_leaving_time": null,
+          "new_cruise": false
+        },
+        {
           "port_name": "Ushuaia",
           "country": "Argentina",
           "date_arriving": "2026-02-20",
