@@ -1,4 +1,6 @@
+import { tv } from "tailwind-variants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { CruiseTimelineItem } from "./cruise-timeline-item";
 
 interface CruiseTimelineProps {
   cruises: Array<{
@@ -11,16 +13,45 @@ interface CruiseTimelineProps {
   variant?: "desktop" | "mobile";
 }
 
-const formatDateShort = (dateString: string) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "2-digit",
-  });
-};
+const timelineStyles = tv({
+  slots: {
+    container: "",
+    header: "mb-4",
+    title: "text-lg font-bold text-primary font-serif mb-2",
+    stats: "text-sm space-y-1",
+    currentStatus: "text-green-600",
+    tabsList: "grid w-full grid-cols-2 mb-4",
+    tabTrigger: "",
+    tabContent: "mt-0 flex-1 overflow-y-auto min-h-0",
+    emptyState: "text-center py-8",
+    timelineList: "space-y-3"
+  },
+  variants: {
+    variant: {
+      desktop: {
+        container: "bg-white/5 backdrop-blur-sm p-4 h-full flex flex-col rounded-lg",
+        title: "text-white",
+        stats: "text-white/70",
+        tabsList: "bg-white/10",
+        tabTrigger: "text-white data-[state=active]:bg-primary data-[state=active]:text-white",
+        emptyState: "text-white/70"
+      },
+      mobile: {
+        container: "bg-transparent",
+        title: "text-gray-900",
+        stats: "text-gray-600",
+        tabsList: "bg-gray-100",
+        tabTrigger: "",
+        emptyState: "text-gray-600"
+      }
+    }
+  },
+  defaultVariants: {
+    variant: "desktop"
+  }
+});
 
-const getCruiseStatus = (cruise: any) => {
+const getCruiseStatus = (cruise: any): "current" | "upcoming" | "past" => {
   const today = new Date();
   const joinDate = new Date(cruise.date_joining);
   const leaveDate = new Date(cruise.date_leaving);
@@ -39,157 +70,102 @@ export function CruiseTimeline({
   className = "",
   variant = "desktop",
 }: CruiseTimelineProps) {
+  const styles = timelineStyles({ variant });
+
   const upcomingCruises = cruises
-    .filter(
-      (c) =>
-        getCruiseStatus(c) === "upcoming" || getCruiseStatus(c) === "current",
-    )
-    .sort(
-      (a, b) =>
-        new Date(a.date_joining).getTime() - new Date(b.date_joining).getTime(),
+    .filter(c => {
+      const status = getCruiseStatus(c);
+      return status === "upcoming" || status === "current";
+    })
+    .sort((a, b) => 
+      new Date(a.date_joining).getTime() - new Date(b.date_joining).getTime()
     );
 
   const completedCruises = cruises
-    .filter((c) => getCruiseStatus(c) === "past")
-    .sort(
-      (a, b) =>
-        new Date(b.date_joining).getTime() - new Date(a.date_joining).getTime(),
-    ); // Reverse order
-
-  const upcomingCount = cruises.filter(
-    (c) => getCruiseStatus(c) === "upcoming",
-  ).length;
-  const pastCount = cruises.filter((c) => getCruiseStatus(c) === "past").length;
-  const currentCruise = cruises.find((c) => getCruiseStatus(c) === "current");
-
-  const isDesktop = variant === "desktop";
-  const containerClasses = isDesktop
-    ? "bg-white/5 backdrop-blur-sm p-4 h-full flex flex-col"
-    : "bg-transparent";
-  const textClasses = isDesktop ? "text-white" : "text-gray-900";
-  const subtextClasses = isDesktop ? "text-white/70" : "text-gray-600";
-
-  const renderTimeline = (
-    cruiseList: typeof cruises,
-    tabType: "upcoming" | "completed",
-  ) => {
-    if (cruiseList.length === 0) {
-      return (
-        <div className={`text-center py-8 ${subtextClasses}`}>
-          No {tabType} cruises
-        </div>
-      );
-    }
-
-    return (
-      <div className="space-y-3">
-        {cruiseList.map((cruise, index) => {
-          const status = getCruiseStatus(cruise);
-          const anchorId = status === "past" ? "past" : "upcoming";
-
-          return (
-            <a
-              key={`${cruise.id}-${cruise.date_joining}`}
-              href={`#${anchorId}`}
-              className="block group"
-            >
-              <div
-                className={`flex items-start gap-3 rounded-lg p-2 transition-colors ${
-                  isDesktop ? "hover:bg-white/10" : "hover:bg-gray-100"
-                }`}
-              >
-                <div className="flex-shrink-0 mt-1">
-                  <div
-                    className={`w-3 h-3 rounded-full border-2 ${
-                      status === "current"
-                        ? "bg-green-400 border-green-400"
-                        : status === "upcoming"
-                          ? "bg-primary border-primary"
-                          : "bg-gray-400 border-gray-400"
-                    }`}
-                  />
-                  {index < cruiseList.length - 1 && (
-                    <div
-                      className={`w-px h-8 ml-1.5 mt-1 ${
-                        isDesktop ? "bg-white/20" : "bg-gray-300"
-                      }`}
-                    />
-                  )}
-                </div>
-
-                <div className="flex-1 min-w-0">
-                  <div
-                    className={`font-medium text-sm truncate group-hover:text-primary transition-colors ${textClasses}`}
-                  >
-                    {cruise.ship_name}
-                  </div>
-                  <div
-                    className={`text-xs space-y-0.5 ${
-                      isDesktop ? "text-white/60" : "text-gray-500"
-                    }`}
-                  >
-                    <div>Join: {formatDateShort(cruise.date_joining)}</div>
-                    <div>Leave: {formatDateShort(cruise.date_leaving)}</div>
-                  </div>
-                  {status === "current" && (
-                    <div className="text-xs text-green-600 mt-1">● Ongoing</div>
-                  )}
-                </div>
-              </div>
-            </a>
-          );
-        })}
-      </div>
+    .filter(c => getCruiseStatus(c) === "past")
+    .sort((a, b) => 
+      new Date(b.date_joining).getTime() - new Date(a.date_joining).getTime()
     );
-  };
+
+  const upcomingCount = cruises.filter(c => getCruiseStatus(c) === "upcoming").length;
+  const pastCount = cruises.filter(c => getCruiseStatus(c) === "past").length;
+  const currentCruise = cruises.find(c => getCruiseStatus(c) === "current");
 
   return (
-    <div className={`${containerClasses} ${className}`}>
-      <div className="mb-4">
-        <h3
-          className={`text-lg font-bold text-primary font-serif mb-2 ${textClasses}`}
-        >
+    <div className={`${styles.container()} ${className}`}>
+      <div className={styles.header()}>
+        <h3 className={styles.title()}>
           Cruise Overview
         </h3>
-        <div className={`text-sm space-y-1 ${subtextClasses}`}>
+        <div className={styles.stats()}>
           {currentCruise && (
-            <div className="text-green-600">Status: Currently cruising</div>
+            <div className={styles.currentStatus()}>Status: Currently cruising</div>
           )}
-          <div>
-            {upcomingCount} upcoming • {pastCount} completed
-          </div>
+          <div>{upcomingCount} upcoming • {pastCount} completed</div>
         </div>
       </div>
 
       <Tabs defaultValue="upcoming" className="w-full flex flex-col flex-1 min-h-0">
-        <TabsList
-          className={`grid w-full grid-cols-2 mb-4 ${
-            isDesktop ? "bg-white/10" : "bg-gray-100"
-          }`}
-        >
+        <TabsList className={styles.tabsList()}>
           <TabsTrigger
             value="upcoming"
-            className={`${isDesktop ? "text-white data-[state=active]:bg-primary data-[state=active]:text-white" : ""}`}
+            className={styles.tabTrigger()}
           >
             🚢 Upcoming ({upcomingCruises.length})
           </TabsTrigger>
           <TabsTrigger
             value="completed"
-            className={`${isDesktop ? "text-white data-[state=active]:bg-primary data-[state=active]:text-white" : ""}`}
+            className={styles.tabTrigger()}
           >
             📚 Completed ({completedCruises.length})
           </TabsTrigger>
         </TabsList>
 
-        <TabsContent value="upcoming" className="mt-0 flex-1 overflow-y-auto min-h-0">
-          {renderTimeline(upcomingCruises, "upcoming")}
+        <TabsContent value="upcoming" className={styles.tabContent()}>
+          <CruiseTimelineList cruises={upcomingCruises} variant={variant} emptyMessage="No upcoming cruises" />
         </TabsContent>
 
-        <TabsContent value="completed" className="mt-0 flex-1 overflow-y-auto min-h-0">
-          {renderTimeline(completedCruises, "completed")}
+        <TabsContent value="completed" className={styles.tabContent()}>
+          <CruiseTimelineList cruises={completedCruises} variant={variant} emptyMessage="No completed cruises" />
         </TabsContent>
       </Tabs>
     </div>
   );
 }
 
+interface CruiseTimelineListProps {
+  cruises: Array<{
+    id: number;
+    ship_name: string;
+    date_joining: string;
+    date_leaving: string;
+  }>;
+  variant: "desktop" | "mobile";
+  emptyMessage: string;
+}
+
+function CruiseTimelineList({ cruises, variant, emptyMessage }: CruiseTimelineListProps) {
+  const styles = timelineStyles({ variant });
+  
+  if (cruises.length === 0) {
+    return (
+      <div className={styles.emptyState()}>
+        {emptyMessage}
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.timelineList()}>
+      {cruises.map((cruise, index) => (
+        <CruiseTimelineItem
+          key={`${cruise.id}-${cruise.date_joining}`}
+          cruise={cruise}
+          status={getCruiseStatus(cruise)}
+          variant={variant}
+          isLast={index === cruises.length - 1}
+        />
+      ))}
+    </div>
+  );
+}
