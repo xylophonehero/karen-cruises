@@ -1,19 +1,19 @@
-import { useState } from "react"
-import { ChevronDown, ChevronUp, Anchor, Calendar, Ship } from "lucide-react"
-import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { CruiseStops } from "./cruise-stops"
-import type { Cruise } from "@/types/cruise"
-import { formatDate } from "@/lib/utils"
+import { useState } from "react";
+import { ChevronDown, ChevronUp, Anchor, Calendar, Ship } from "lucide-react";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { CruiseStops } from "./cruise-stops";
+import type { Cruise } from "@/types/cruise";
+import { formatDate } from "@/lib/utils";
 
 interface CruiseCardProps {
-  cruise: Cruise
-  isConnected?: boolean
+  cruise: Cruise;
+  isConnected?: boolean;
 }
 
 export function CruiseCard({ cruise, isConnected = false }: CruiseCardProps) {
-  const [showStops, setShowStops] = useState(false)
+  const [showStops, setShowStops] = useState(false);
 
   return (
     <div className="relative">
@@ -25,7 +25,9 @@ export function CruiseCard({ cruise, isConnected = false }: CruiseCardProps) {
           <div className="bg-primary/10 p-4">
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold text-lg font-playfair">{cruise.name}</h3>
+                <h3 className="font-bold text-lg font-playfair">
+                  {cruise.name}
+                </h3>
                 <div className="flex items-center text-sm text-muted-foreground mt-1">
                   <Ship className="h-4 w-4 mr-1" />
                   <span>{cruise.shipName}</span>
@@ -49,14 +51,17 @@ export function CruiseCard({ cruise, isConnected = false }: CruiseCardProps) {
             <div className="flex items-center mb-4">
               <Calendar className="h-4 w-4 mr-2 text-muted-foreground" />
               <span className="text-sm">
-                {formatDate(cruise.departureDate)} - {formatDate(cruise.returnDate)} ({cruise.duration} days)
+                {formatDate(cruise.departureDate)} -{" "}
+                {formatDate(cruise.returnDate)} ({cruise.duration} days)
               </span>
             </div>
 
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center">
                 <Anchor className="h-4 w-4 mr-2 text-muted-foreground" />
-                <span className="text-sm font-medium">{cruise.departurePort}</span>
+                <span className="text-sm font-medium">
+                  {cruise.departurePort}
+                </span>
               </div>
               <div className="text-sm text-muted-foreground">to</div>
               <div className="flex items-center">
@@ -72,7 +77,11 @@ export function CruiseCard({ cruise, isConnected = false }: CruiseCardProps) {
               onClick={() => setShowStops(!showStops)}
             >
               <span>View {cruise.stops.length} Stops</span>
-              {showStops ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+              {showStops ? (
+                <ChevronUp className="h-4 w-4" />
+              ) : (
+                <ChevronDown className="h-4 w-4" />
+              )}
             </Button>
 
             {showStops && <CruiseStops stops={cruise.stops} />}
@@ -90,6 +99,5 @@ export function CruiseCard({ cruise, isConnected = false }: CruiseCardProps) {
         </CardFooter>
       </Card>
     </div>
-  )
+  );
 }
-

@@ -1,7 +1,7 @@
-import type { CruiseStop } from "@/types/cruise"
+import type { CruiseStop } from "@/types/cruise";
 
 interface CruiseStopsProps {
-  stops: CruiseStop[]
+  stops: CruiseStop[];
 }
 
 export function CruiseStops({ stops }: CruiseStopsProps) {
@@ -25,6 +25,5 @@ export function CruiseStops({ stops }: CruiseStopsProps) {
         ))}
       </ol>
     </div>
-  )
+  );
 }
-

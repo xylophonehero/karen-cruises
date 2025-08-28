@@ -4,7 +4,6 @@ import { CruiseSection } from "./components/cruise-section";
 import { CruiseTimeline } from "./components/cruise-timeline";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerDescription,
   DrawerHeader,
@@ -26,9 +25,9 @@ function App() {
   );
 
   return (
-    <main className="h-full min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800 text-white font-sans bg-fixed flex gap-x-4">
+    <main className="h-full min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800 text-white font-sans bg-fixed flex">
       {/* Desktop Sidebar */}
-      <aside className="w-[360px] hidden h-full lg:block">
+      <aside className="w-[360px] hidden h-full md:block">
         <CruiseTimeline cruises={schedule} />
       </aside>
 
@@ -61,37 +60,13 @@ function App() {
           </DrawerHeader>
           <div className="px-4 pb-4 overflow-y-auto">
             <CruiseTimeline cruises={schedule} variant="mobile" />
-
-            <div className="mt-6 pt-4 border-t border-gray-200">
-              <h4 className="font-medium text-gray-900 mb-3">
-                Quick Navigation
-              </h4>
-              <div className="space-y-2">
-                <DrawerClose asChild>
-                  <a
-                    href="#upcoming"
-                    className="w-full block text-left px-4 py-3 rounded-lg transition-all duration-200 font-medium bg-gray-100 text-gray-900 hover:bg-gray-200"
-                  >
-                    🚢 Upcoming Cruises
-                  </a>
-                </DrawerClose>
-                <DrawerClose asChild>
-                  <a
-                    href="#past"
-                    className="w-full block text-left px-4 py-3 rounded-lg transition-all duration-200 font-medium bg-gray-100 text-gray-900 hover:bg-gray-200"
-                  >
-                    📚 Past Cruises
-                  </a>
-                </DrawerClose>
-              </div>
-            </div>
           </div>
         </DrawerContent>
       </Drawer>
 
-      <div className="flex-1 overflow-auto h-full py-8">
+      <div className="flex-1 overflow-auto h-full py-8 px-4">
         <div className="container mx-auto">
-          <h1 className="text-4xl font-bold mb-12 text-center text-primary font-serif">
+          <h1 className="text-4xl font-bold mb-12 text-center text-primary">
             Karen Worrall Cruise Schedule
           </h1>
 

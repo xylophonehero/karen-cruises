@@ -40,14 +40,18 @@ interface ItineraryTableProps {
   cruiseEndDate: string;
 }
 
-export function ItineraryTable({ items, cruiseStartDate, cruiseEndDate }: ItineraryTableProps) {
+export function ItineraryTable({
+  items,
+  cruiseStartDate,
+  cruiseEndDate,
+}: ItineraryTableProps) {
   // Generate array of all cruise days
   const cruiseDays: string[] = [];
   let currentDate = new Date(cruiseStartDate);
   const endDate = new Date(cruiseEndDate);
-  
+
   while (currentDate <= endDate) {
-    cruiseDays.push(currentDate.toISOString().split('T')[0]);
+    cruiseDays.push(currentDate.toISOString().split("T")[0]);
     currentDate.setDate(currentDate.getDate() + 1);
   }
 
@@ -67,63 +71,78 @@ export function ItineraryTable({ items, cruiseStartDate, cruiseEndDate }: Itiner
       <TableBody>
         {cruiseDays.map((dayString, index) => {
           // Find the port that covers this day, prioritizing items that start on this day
-          const portForDay = items.find(item => item.date_arriving === dayString) ||
-                             items.find(item => {
-                               const arriveDate = new Date(item.date_arriving);
-                               const leaveDate = new Date(item.date_leaving);
-                               const currentDay = new Date(dayString);
-                               return currentDay >= arriveDate && currentDay <= leaveDate;
-                             });
-
-          const dayEntry = portForDay ? {
-            ...portForDay,
-            date_arriving: dayString,
-            date_leaving: dayString
-          } : {
-            date_arriving: dayString,
-            date_leaving: dayString,
-            country: "",
-            port_name: "Sea Day",
-            date_arriving_time: null,
-            date_leaving_time: null,
-            new_cruise: false,
-            is_sea_day: true
-          };
-
-          // Determine if this is the first or last day of a multi-day port stay
-          const isFirstDayOfStay = portForDay ? dayString === portForDay.date_arriving : false;
-          const isLastDayOfStay = portForDay ? dayString === portForDay.date_leaving : false;
-          
-          // Check if there's a conflict (another item starting on the next day)
-          const hasConflictNextDay = portForDay && !isLastDayOfStay && 
-            items.some(item => {
-              const nextDay = new Date(dayString);
-              nextDay.setDate(nextDay.getDate() + 1);
-              return item.date_arriving === nextDay.toISOString().split('T')[0];
+          const portForDay =
+            items.find((item) => item.date_arriving === dayString) ||
+            items.find((item) => {
+              const arriveDate = new Date(item.date_arriving);
+              const leaveDate = new Date(item.date_leaving);
+              const currentDay = new Date(dayString);
+              return currentDay >= arriveDate && currentDay <= leaveDate;
             });
 
-          const dayDiff = dayDifference(dayEntry.date_arriving, dayEntry.date_leaving);
-          
+          const dayEntry = portForDay
+            ? {
+                ...portForDay,
+                date_arriving: dayString,
+                date_leaving: dayString,
+              }
+            : {
+                date_arriving: dayString,
+                date_leaving: dayString,
+                country: "",
+                port_name: "Sea Day",
+                date_arriving_time: null,
+                date_leaving_time: null,
+                new_cruise: false,
+                is_sea_day: true,
+              };
+
+          // Determine if this is the first or last day of a multi-day port stay
+          const isFirstDayOfStay = portForDay
+            ? dayString === portForDay.date_arriving
+            : false;
+          const isLastDayOfStay = portForDay
+            ? dayString === portForDay.date_leaving
+            : false;
+
+          // Check if there's a conflict (another item starting on the next day)
+          const hasConflictNextDay =
+            portForDay &&
+            !isLastDayOfStay &&
+            items.some((item) => {
+              const nextDay = new Date(dayString);
+              nextDay.setDate(nextDay.getDate() + 1);
+              return item.date_arriving === nextDay.toISOString().split("T")[0];
+            });
+
+          const dayDiff = dayDifference(
+            dayEntry.date_arriving,
+            dayEntry.date_leaving,
+          );
+
           return (
             <TableRow
               className={
-                dayEntry.new_cruise && isFirstDayOfStay
-                  ? "bg-chart-2"
+                dayEntry.new_cruise &&
+                isFirstDayOfStay &&
+                index !== cruiseDays.length - 1
+                  ? "bg-primary/60"
                   : ""
               }
               key={dayString}
             >
               <TableCell>{formatDateShort(dayEntry.date_arriving)}</TableCell>
-              <TableCell>
-                {dayEntry.port_name}
-              </TableCell>
+              <TableCell>{dayEntry.port_name}</TableCell>
               <TableCell>{dayEntry.country}</TableCell>
               <TableCell>
-                {!dayEntry.is_sea_day && (isFirstDayOfStay || index === 0) && dayEntry.date_arriving_time}
+                {!dayEntry.is_sea_day &&
+                  (isFirstDayOfStay || index === 0) &&
+                  dayEntry.date_arriving_time}
               </TableCell>
               <TableCell>
-                {!dayEntry.is_sea_day && (isLastDayOfStay || hasConflictNextDay) && dayEntry.date_leaving_time}
-                {' '}
+                {!dayEntry.is_sea_day &&
+                  (isLastDayOfStay || hasConflictNextDay) &&
+                  dayEntry.date_leaving_time}{" "}
                 {dayDiff > 0 && `(+${dayDiff})`}
               </TableCell>
             </TableRow>

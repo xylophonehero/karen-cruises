@@ -1,4 +1,4 @@
-import type { Cruise } from "@/types/cruise"
+import type { Cruise } from "@/types/cruise";
 
 export const cruises: Cruise[] = [
   {
@@ -15,9 +15,24 @@ export const cruises: Cruise[] = [
     stops: [
       { day: 1, port: "Miami, FL", departureTime: "4:00 PM" },
       { day: 2, port: "At Sea" },
-      { day: 3, port: "Cozumel, Mexico", arrivalTime: "8:00 AM", departureTime: "5:00 PM" },
-      { day: 4, port: "Grand Cayman", arrivalTime: "8:00 AM", departureTime: "4:00 PM" },
-      { day: 5, port: "Falmouth, Jamaica", arrivalTime: "10:00 AM", departureTime: "6:00 PM" },
+      {
+        day: 3,
+        port: "Cozumel, Mexico",
+        arrivalTime: "8:00 AM",
+        departureTime: "5:00 PM",
+      },
+      {
+        day: 4,
+        port: "Grand Cayman",
+        arrivalTime: "8:00 AM",
+        departureTime: "4:00 PM",
+      },
+      {
+        day: 5,
+        port: "Falmouth, Jamaica",
+        arrivalTime: "10:00 AM",
+        departureTime: "6:00 PM",
+      },
       { day: 6, port: "At Sea" },
       { day: 7, port: "Miami, FL", arrivalTime: "7:00 AM" },
     ],
@@ -37,9 +52,24 @@ export const cruises: Cruise[] = [
     stops: [
       { day: 1, port: "Miami, FL", departureTime: "4:00 PM" },
       { day: 2, port: "At Sea" },
-      { day: 3, port: "San Juan, Puerto Rico", arrivalTime: "8:00 AM", departureTime: "5:00 PM" },
-      { day: 4, port: "St. Thomas, USVI", arrivalTime: "8:00 AM", departureTime: "4:00 PM" },
-      { day: 5, port: "St. Maarten", arrivalTime: "10:00 AM", departureTime: "6:00 PM" },
+      {
+        day: 3,
+        port: "San Juan, Puerto Rico",
+        arrivalTime: "8:00 AM",
+        departureTime: "5:00 PM",
+      },
+      {
+        day: 4,
+        port: "St. Thomas, USVI",
+        arrivalTime: "8:00 AM",
+        departureTime: "4:00 PM",
+      },
+      {
+        day: 5,
+        port: "St. Maarten",
+        arrivalTime: "10:00 AM",
+        departureTime: "6:00 PM",
+      },
       { day: 6, port: "At Sea" },
       { day: 7, port: "Miami, FL", arrivalTime: "7:00 AM" },
     ],
@@ -59,13 +89,43 @@ export const cruises: Cruise[] = [
     stops: [
       { day: 1, port: "Barcelona, Spain", departureTime: "5:00 PM" },
       { day: 2, port: "At Sea" },
-      { day: 3, port: "Provence (Marseille), France", arrivalTime: "8:00 AM", departureTime: "6:00 PM" },
-      { day: 4, port: "Florence/Pisa (Livorno), Italy", arrivalTime: "7:00 AM", departureTime: "7:00 PM" },
-      { day: 5, port: "Rome (Civitavecchia), Italy", arrivalTime: "7:00 AM", departureTime: "8:00 PM" },
-      { day: 6, port: "Naples, Italy", arrivalTime: "7:00 AM", departureTime: "6:30 PM" },
+      {
+        day: 3,
+        port: "Provence (Marseille), France",
+        arrivalTime: "8:00 AM",
+        departureTime: "6:00 PM",
+      },
+      {
+        day: 4,
+        port: "Florence/Pisa (Livorno), Italy",
+        arrivalTime: "7:00 AM",
+        departureTime: "7:00 PM",
+      },
+      {
+        day: 5,
+        port: "Rome (Civitavecchia), Italy",
+        arrivalTime: "7:00 AM",
+        departureTime: "8:00 PM",
+      },
+      {
+        day: 6,
+        port: "Naples, Italy",
+        arrivalTime: "7:00 AM",
+        departureTime: "6:30 PM",
+      },
       { day: 7, port: "At Sea" },
-      { day: 8, port: "Santorini, Greece", arrivalTime: "7:00 AM", departureTime: "7:00 PM" },
-      { day: 9, port: "Athens (Piraeus), Greece", arrivalTime: "6:00 AM", departureTime: "6:00 PM" },
+      {
+        day: 8,
+        port: "Santorini, Greece",
+        arrivalTime: "7:00 AM",
+        departureTime: "7:00 PM",
+      },
+      {
+        day: 9,
+        port: "Athens (Piraeus), Greece",
+        arrivalTime: "6:00 AM",
+        departureTime: "6:00 PM",
+      },
       { day: 10, port: "At Sea" },
       { day: 11, port: "Rome (Civitavecchia), Italy", arrivalTime: "5:00 AM" },
     ],
@@ -85,11 +145,31 @@ export const cruises: Cruise[] = [
     stops: [
       { day: 1, port: "Seattle, WA", departureTime: "4:00 PM" },
       { day: 2, port: "At Sea" },
-      { day: 3, port: "Juneau, Alaska", arrivalTime: "12:00 PM", departureTime: "9:00 PM" },
-      { day: 4, port: "Skagway, Alaska", arrivalTime: "7:00 AM", departureTime: "8:30 PM" },
+      {
+        day: 3,
+        port: "Juneau, Alaska",
+        arrivalTime: "12:00 PM",
+        departureTime: "9:00 PM",
+      },
+      {
+        day: 4,
+        port: "Skagway, Alaska",
+        arrivalTime: "7:00 AM",
+        departureTime: "8:30 PM",
+      },
       { day: 5, port: "Glacier Bay (Scenic Cruising)" },
-      { day: 6, port: "Ketchikan, Alaska", arrivalTime: "10:00 AM", departureTime: "6:00 PM" },
-      { day: 7, port: "Victoria, BC, Canada", arrivalTime: "6:00 PM", departureTime: "11:59 PM" },
+      {
+        day: 6,
+        port: "Ketchikan, Alaska",
+        arrivalTime: "10:00 AM",
+        departureTime: "6:00 PM",
+      },
+      {
+        day: 7,
+        port: "Victoria, BC, Canada",
+        arrivalTime: "6:00 PM",
+        departureTime: "11:59 PM",
+      },
       { day: 8, port: "Seattle, WA", arrivalTime: "7:00 AM" },
     ],
     bookingUrl: "https://example.com/cruise-4",
@@ -108,13 +188,32 @@ export const cruises: Cruise[] = [
     stops: [
       { day: 1, port: "Rome (Civitavecchia), Italy", departureTime: "5:00 PM" },
       { day: 2, port: "At Sea" },
-      { day: 3, port: "Santorini, Greece", arrivalTime: "7:00 AM", departureTime: "7:00 PM" },
-      { day: 4, port: "Mykonos, Greece", arrivalTime: "7:00 AM", departureTime: "7:00 PM" },
-      { day: 5, port: "Rhodes, Greece", arrivalTime: "8:00 AM", departureTime: "6:00 PM" },
-      { day: 6, port: "Crete (Heraklion), Greece", arrivalTime: "7:00 AM", departureTime: "5:00 PM" },
+      {
+        day: 3,
+        port: "Santorini, Greece",
+        arrivalTime: "7:00 AM",
+        departureTime: "7:00 PM",
+      },
+      {
+        day: 4,
+        port: "Mykonos, Greece",
+        arrivalTime: "7:00 AM",
+        departureTime: "7:00 PM",
+      },
+      {
+        day: 5,
+        port: "Rhodes, Greece",
+        arrivalTime: "8:00 AM",
+        departureTime: "6:00 PM",
+      },
+      {
+        day: 6,
+        port: "Crete (Heraklion), Greece",
+        arrivalTime: "7:00 AM",
+        departureTime: "5:00 PM",
+      },
       { day: 7, port: "Athens (Piraeus), Greece", arrivalTime: "6:00 AM" },
     ],
     bookingUrl: "https://example.com/cruise-5",
   },
-]
-
+];

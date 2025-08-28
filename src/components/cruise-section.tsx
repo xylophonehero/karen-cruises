@@ -1,4 +1,4 @@
-import { formatDate } from "@/lib/utils";
+import { formatDate, generateCruiseId } from "@/lib/utils";
 import itineraries from "@/data/itineraries.json";
 import { ItineraryTable } from "./itinerary-table";
 
@@ -13,11 +13,10 @@ interface CruiseSectionProps {
 }
 
 export function CruiseSection({ cruise }: CruiseSectionProps) {
+  const cruiseId = generateCruiseId(cruise.ship_name, cruise.date_joining);
+
   return (
-    <div
-      className="flex flex-col gap-2"
-      key={`${cruise.id}-${cruise.date_joining}`}
-    >
+    <div className="flex flex-col gap-2" id={cruiseId}>
       <h2 className="text-xl font-bold text-primary">{cruise.ship_name}</h2>
       <div>
         <span>{formatDate(cruise.date_joining)}</span>
@@ -44,4 +43,3 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
     </div>
   );
 }
-
