@@ -11,6 +11,7 @@ interface CruiseTimelineProps {
   }>;
   className?: string;
   variant?: "desktop" | "mobile";
+  onItemClick?: () => void;
 }
 
 const timelineStyles = tv({
@@ -30,7 +31,6 @@ const timelineStyles = tv({
     variant: {
       desktop: {
         container: "bg-white/5 backdrop-blur-sm p-4 h-full flex flex-col",
-        title: "text-white",
         stats: "text-white/70",
         tabsList: "bg-white/10",
         tabTrigger:
@@ -70,6 +70,7 @@ export function CruiseTimeline({
   cruises,
   className = "",
   variant = "desktop",
+  onItemClick,
 }: CruiseTimelineProps) {
   const styles = timelineStyles({ variant });
 
@@ -99,7 +100,7 @@ export function CruiseTimeline({
   return (
     <div className={`${styles.container()} ${className}`}>
       <div className={styles.header()}>
-        <h3 className={styles.title()}>Cruise Overview</h3>
+        <h3 className={styles.title()}>Cruise Contracts</h3>
         <div className={styles.stats()}>
           {currentCruise && (
             <div className={styles.currentStatus()}>
@@ -130,6 +131,7 @@ export function CruiseTimeline({
             cruises={upcomingCruises}
             variant={variant}
             emptyMessage="No upcoming cruises"
+            onItemClick={onItemClick}
           />
         </TabsContent>
 
@@ -138,6 +140,7 @@ export function CruiseTimeline({
             cruises={completedCruises}
             variant={variant}
             emptyMessage="No completed cruises"
+            onItemClick={onItemClick}
           />
         </TabsContent>
       </Tabs>
@@ -154,12 +157,14 @@ interface CruiseTimelineListProps {
   }>;
   variant: "desktop" | "mobile";
   emptyMessage: string;
+  onItemClick?: () => void;
 }
 
 function CruiseTimelineList({
   cruises,
   variant,
   emptyMessage,
+  onItemClick,
 }: CruiseTimelineListProps) {
   const styles = timelineStyles({ variant });
 
@@ -176,6 +181,7 @@ function CruiseTimelineList({
           status={getCruiseStatus(cruise)}
           variant={variant}
           isLast={index === cruises.length - 1}
+          onItemClick={onItemClick}
         />
       ))}
     </div>

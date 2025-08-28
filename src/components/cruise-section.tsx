@@ -16,12 +16,16 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
   const cruiseId = generateCruiseId(cruise.ship_name, cruise.date_joining);
 
   return (
-    <div className="flex flex-col gap-2" id={cruiseId}>
-      <h2 className="text-xl font-bold text-primary">{cruise.ship_name}</h2>
-      <div>
-        <span>{formatDate(cruise.date_joining)}</span>
-        {" - "}
-        <span>{formatDate(cruise.date_leaving)}</span>
+    <div className="flex flex-col relative" id={cruiseId}>
+      <div className="sticky -top-8 flex flex-col bg-blue-900 z-1 pt-4 pb-2">
+        <h2 className="text-xl font-bold text-primary">
+          {cruise.ship_name}
+        </h2>
+        <div className="text-sm text-white/80">
+          <span>{formatDate(cruise.date_joining)}</span>
+          {" - "}
+          <span>{formatDate(cruise.date_leaving)}</span>
+        </div>
       </div>
       <div>
         <ItineraryTable

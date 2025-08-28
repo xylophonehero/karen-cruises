@@ -25,7 +25,7 @@ function App() {
   );
 
   return (
-    <main className="h-full min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800 text-white font-sans bg-fixed flex">
+    <main className="h-full min-h-screen bg-blue-900 text-white font-sans bg-fixed flex">
       {/* Desktop Sidebar */}
       <aside className="w-[360px] hidden h-full md:block">
         <CruiseTimeline cruises={schedule} />
@@ -53,13 +53,17 @@ function App() {
         </DrawerTrigger>
         <DrawerContent className="max-h-[80vh]">
           <DrawerHeader>
-            <DrawerTitle>Cruise Overview</DrawerTitle>
+            <DrawerTitle>Cruise Contracts</DrawerTitle>
             <DrawerDescription>
               Navigate to any cruise or section
             </DrawerDescription>
           </DrawerHeader>
           <div className="px-4 pb-4 overflow-y-auto">
-            <CruiseTimeline cruises={schedule} variant="mobile" />
+            <CruiseTimeline 
+              cruises={schedule} 
+              variant="mobile" 
+              onItemClick={() => setDrawerOpen(false)}
+            />
           </div>
         </DrawerContent>
       </Drawer>
@@ -72,9 +76,12 @@ function App() {
 
           {upcomingCruises.length > 0 && (
             <div id="upcoming" className="mb-12">
-              <h2 className="text-3xl font-bold text-primary mb-6">
-                🚢 Upcoming Cruises
+              <h2 className="text-3xl font-bold text-primary mb-2">
+                🚢 Upcoming cruise contracts
               </h2>
+              <div className="mb-6 text-sm text-white/80">
+                Rows in yellow indicate the start of a new cruise
+              </div>
               <div className="flex flex-col gap-4">
                 {upcomingCruises.map((cruise) => (
                   <CruiseSection

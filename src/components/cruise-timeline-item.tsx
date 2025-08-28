@@ -11,6 +11,7 @@ interface CruiseTimelineItemProps {
   status: "current" | "upcoming" | "past";
   variant?: "desktop" | "mobile";
   isLast?: boolean;
+  onItemClick?: () => void;
 }
 
 const timelineItemStyles = tv({
@@ -72,12 +73,17 @@ export function CruiseTimelineItem({
   status,
   variant = "desktop",
   isLast = false,
+  onItemClick,
 }: CruiseTimelineItemProps) {
   const styles = timelineItemStyles({ variant, status, isLast });
   const cruiseId = generateCruiseId(cruise.ship_name, cruise.date_joining);
 
   return (
-    <a href={`#${cruiseId}`} className={styles.container()}>
+    <a 
+      href={`#${cruiseId}`} 
+      className={styles.container()}
+      onClick={onItemClick}
+    >
       <div className={styles.wrapper()}>
         <div className={styles.dotContainer()}>
           <div className={styles.dot()} />
