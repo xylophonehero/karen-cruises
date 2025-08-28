@@ -3,7 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -159,9 +158,16 @@ body {
     @apply border-border outline-ring/50;
   }
   html {
+    height: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   body {
+    height: 100%;
     @apply bg-background text-foreground;
+    overflow-x: hidden;
+  }
+  #root {
+    height: 100%;
   }
 }
