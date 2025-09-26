@@ -1,4 +1,4 @@
-import { formatDate, generateCruiseId } from "@/lib/utils";
+import { formatDate, generateCruiseId, calculateCruiseDuration } from "@/lib/utils";
 import itineraries from "@/data/itineraries.json";
 import { ItineraryTable } from "./itinerary-table";
 import { CruiseSchedule } from "@/types/schedule";
@@ -11,6 +11,7 @@ interface CruiseSectionProps {
 
 export function CruiseSection({ cruise }: CruiseSectionProps) {
   const cruiseId = generateCruiseId(cruise.ship_name, cruise.date_joining);
+  const duration = calculateCruiseDuration(cruise.date_joining, cruise.date_leaving);
 
   return (
     <div className="flex flex-col relative" id={cruiseId}>
@@ -23,6 +24,7 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
           <span>{formatDate(cruise.date_joining)}</span>
           {" - "}
           <span>{formatDate(cruise.date_leaving)}</span>
+          <span className="ml-2">({duration} days)</span>
         </div>
       </div>
       <div>

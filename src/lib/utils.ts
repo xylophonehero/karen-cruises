@@ -14,6 +14,17 @@ export function formatDate(dateString: string): string {
   });
 }
 
+export function calculateCruiseDuration(
+  dateJoining: string,
+  dateLeaving: string,
+): number {
+  const joinDate = new Date(dateJoining);
+  const leaveDate = new Date(dateLeaving);
+  const diffTime = Math.abs(leaveDate.getTime() - joinDate.getTime());
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  return diffDays + 1; // Include both start and end days
+}
+
 export function generateCruiseId(
   shipName: string,
   dateJoining: string,

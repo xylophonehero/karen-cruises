@@ -1,5 +1,9 @@
 import { tv } from "tailwind-variants";
-import { formatDate, generateCruiseId } from "@/lib/utils";
+import {
+  formatDate,
+  generateCruiseId,
+  calculateCruiseDuration,
+} from "@/lib/utils";
 import { CruiseSchedule } from "@/types/schedule";
 
 interface CruiseTimelineItemProps {
@@ -41,7 +45,6 @@ const timelineItemStyles = tv({
     status: {
       current: {
         dot: "bg-green-400 border-green-400",
-        statusIndicator: "text-green-600",
       },
       upcoming: {
         dot: "bg-primary border-primary",
@@ -73,10 +76,14 @@ export function CruiseTimelineItem({
 }: CruiseTimelineItemProps) {
   const styles = timelineItemStyles({ variant, status, isLast });
   const cruiseId = generateCruiseId(cruise.ship_name, cruise.date_joining);
+  const duration = calculateCruiseDuration(
+    cruise.date_joining,
+    cruise.date_leaving,
+  );
 
   return (
-    <a 
-      href={`#${cruiseId}`} 
+    <a
+      href={`#${cruiseId}`}
       className={styles.container()}
       onClick={onItemClick}
     >
@@ -89,15 +96,13 @@ export function CruiseTimelineItem({
         <div className={styles.content()}>
           <div className={styles.title()}>
             {cruise.ship_name}
-            {cruise.tags.length > 0 && `: ${cruise.tags.join(' | ')}`}
+            {cruise.tags.length > 0 && `: ${cruise.tags.join(" | ")}`}
           </div>
           <div className={styles.dates()}>
             <div>Join: {formatDate(cruise.date_joining)}</div>
             <div>Leave: {formatDate(cruise.date_leaving)}</div>
+            <div>Days: {duration}</div>
           </div>
-          {status === "current" && (
-            <div className={styles.statusIndicator()}>● Ongoing</div>
-          )}
         </div>
       </div>
     </a>
