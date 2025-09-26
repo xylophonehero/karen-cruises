@@ -1,15 +1,12 @@
 import { formatDate, generateCruiseId } from "@/lib/utils";
 import itineraries from "@/data/itineraries.json";
 import { ItineraryTable } from "./itinerary-table";
+import { CruiseSchedule } from "@/types/schedule";
 
 const ships = itineraries.ships;
+
 interface CruiseSectionProps {
-  cruise: {
-    id: number;
-    ship_name: string;
-    date_joining: string;
-    date_leaving: string;
-  };
+  cruise: CruiseSchedule;
 }
 
 export function CruiseSection({ cruise }: CruiseSectionProps) {
@@ -20,6 +17,7 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
       <div className="sticky -top-8 flex flex-col bg-blue-900 z-1 pt-4 pb-2">
         <h2 className="text-xl font-bold text-primary">
           {cruise.ship_name}
+          {cruise.tags.length > 0 && `: ${cruise.tags.join(' | ')}`}
         </h2>
         <div className="text-sm text-white/80">
           <span>{formatDate(cruise.date_joining)}</span>

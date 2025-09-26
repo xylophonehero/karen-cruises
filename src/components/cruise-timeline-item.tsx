@@ -1,13 +1,9 @@
 import { tv } from "tailwind-variants";
 import { formatDate, generateCruiseId } from "@/lib/utils";
+import { CruiseSchedule } from "@/types/schedule";
 
 interface CruiseTimelineItemProps {
-  cruise: {
-    id: number;
-    ship_name: string;
-    date_joining: string;
-    date_leaving: string;
-  };
+  cruise: CruiseSchedule;
   status: "current" | "upcoming" | "past";
   variant?: "desktop" | "mobile";
   isLast?: boolean;
@@ -91,7 +87,10 @@ export function CruiseTimelineItem({
         </div>
 
         <div className={styles.content()}>
-          <div className={styles.title()}>{cruise.ship_name}</div>
+          <div className={styles.title()}>
+            {cruise.ship_name}
+            {cruise.tags.length > 0 && `: ${cruise.tags.join(' | ')}`}
+          </div>
           <div className={styles.dates()}>
             <div>Join: {formatDate(cruise.date_joining)}</div>
             <div>Leave: {formatDate(cruise.date_leaving)}</div>

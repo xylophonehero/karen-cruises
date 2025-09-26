@@ -1,14 +1,10 @@
 import { tv } from "tailwind-variants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CruiseTimelineItem } from "./cruise-timeline-item";
+import { CruiseSchedule } from "@/types/schedule";
 
 interface CruiseTimelineProps {
-  cruises: Array<{
-    id: number;
-    ship_name: string;
-    date_joining: string;
-    date_leaving: string;
-  }>;
+  cruises: CruiseSchedule[];
   className?: string;
   variant?: "desktop" | "mobile";
   onItemClick?: () => void;
@@ -149,12 +145,7 @@ export function CruiseTimeline({
 }
 
 interface CruiseTimelineListProps {
-  cruises: Array<{
-    id: number;
-    ship_name: string;
-    date_joining: string;
-    date_leaving: string;
-  }>;
+  cruises: CruiseSchedule[];
   variant: "desktop" | "mobile";
   emptyMessage: string;
   onItemClick?: () => void;

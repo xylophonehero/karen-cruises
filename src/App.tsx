@@ -59,9 +59,9 @@ function App() {
             </DrawerDescription>
           </DrawerHeader>
           <div className="px-4 pb-4 overflow-y-auto">
-            <CruiseTimeline 
-              cruises={schedule} 
-              variant="mobile" 
+            <CruiseTimeline
+              cruises={schedule}
+              variant="mobile"
               onItemClick={() => setDrawerOpen(false)}
             />
           </div>

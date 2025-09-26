@@ -7,79 +7,92 @@
         "id": 1,
         "ship_name": "Explora II",
         "date_joining": "2025-03-28",
-        "date_leaving": "2025-05-21"
+        "date_leaving": "2025-05-21",
+        "tags": ["Western Mediterranean"]
       },
       {
         "id": 6,
         "ship_name": "Emerald Sakara",
         "date_joining": "2025-06-07",
-        "date_leaving": "2025-06-21"
+        "date_leaving": "2025-06-21",
+        "tags": ["Italy", "Greek Isles"]
       },
       {
         "id": 2,
         "ship_name": "Explora II",
         "date_joining": "2025-06-30",
-        "date_leaving": "2025-07-28"
+        "date_leaving": "2025-07-28",
+        "tags": ["Western Mediterranean"]
       },
       {
         "id": 3,
         "ship_name": "Seabourn Sojourn",
         "date_joining": "2025-08-02",
-        "date_leaving": "2025-08-18"
+        "date_leaving": "2025-08-18",
+        "tags": ["British Isles", "Iceland"]
       },
       {
         "id": 4,
         "ship_name": "Explora I",
         "date_joining": "2025-09-05",
-        "date_leaving": "2025-10-18"
+        "date_leaving": "2025-10-18",
+        "tags": ["Eastern Mediterranean", "Aegean"]
       },
       {
         "id": 6,
         "ship_name": "Emerald Sakara",
         "date_joining": "2025-10-18",
-        "date_leaving": "2025-10-25"
+        "date_leaving": "2025-10-25",
+        "tags": ["Spain", "Balearic Islands"]
       },
       {
         "id": 5,
         "ship_name": "Explora II",
         "date_joining": "2025-11-02",
-        "date_leaving": "2025-12-14"
+        "date_leaving": "2025-12-14",
+        "tags": ["Western Mediterranean", "Transatlantic", "Caribbean"]
       },
       {
         "id": 8,
         "ship_name": "Explora II",
         "date_joining": "2026-01-05",
-        "date_leaving": "2026-02-04"
+        "date_leaving": "2026-02-04",
+        "tags": ["Caribbean"]
       },
       {
         "id": 7,
         "ship_name": "Azamara Quest",
         "date_joining": "2026-02-08",
-        "date_leaving": "2026-03-15"
+        "date_leaving": "2026-03-15",
+        "tags": ["Antarctica", "South America"]
       },
       {
         "id": 9,
         "ship_name": "Oceania Regatta",
         "date_joining": "2026-04-03",
-        "date_leaving": "2026-05-01"
+        "date_leaving": "2026-05-01",
+        "tags": ["Japan", "Southeast Asia"]
       },
       {
         "id": 10,
         "ship_name": "Explora I",
         "date_joining": "2026-05-20",
-        "date_leaving": "2026-06-02"
+        "date_leaving": "2026-06-02",
+        "tags": ["Western Mediterranean"]
       },
       {
         "id": 11,
         "ship_name": "Explora II",
         "date_joining": "2026-09-07",
-        "date_leaving": "2026-10-05"
+        "date_leaving": "2026-10-05",
+        "tags": ["Eastern Mediterranean"]
       },
       {
         "id": 12,
         "ship_name": "Explora I",
         "date_joining": "2026-11-01",
-        "date_leaving": "2027-01-04"
+        "date_leaving": "2027-01-04",
+        "tags": ["Transatlantic", "Caribbean"]
       }
     ]
   }
