@@ -1419,7 +1419,7 @@
           "new_cruise": true
         },
         {
-          "port_name": "Santorini",
+          "port_name": "Milos",
           "country": "Greece",
           "date_arriving": "2025-09-21",
           "date_arriving_time": "9:00 AM",
@@ -1572,7 +1572,7 @@
           "new_cruise": false
         },
         {
-          "port_name": "Santorini",
+          "port_name": "Milos",
           "country": "Greece",
           "date_arriving": "2025-10-12",
           "date_arriving_time": "8:00 AM",
@@ -1591,7 +1591,7 @@
         },
         {
           "port_name": "Gallipoli",
-          "country": "Turkiye",
+          "country": "Italy",
           "date_arriving": "2025-10-15",
           "date_arriving_time": "9:00 AM",
           "date_leaving": "2025-10-15",
@@ -2365,7 +2365,7 @@
           "new_cruise": false
         },
         {
-          "port_name": "Port Stanley (Falkland Islands)",
+          "port_name": "Port Stanley (Islas Malvinas)",
           "country": "Falkland Islands",
           "date_arriving": "2026-02-14",
           "date_arriving_time": "7:30 AM",
