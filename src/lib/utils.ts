@@ -22,7 +22,7 @@ export function calculateCruiseDuration(
   const leaveDate = new Date(dateLeaving);
   const diffTime = Math.abs(leaveDate.getTime() - joinDate.getTime());
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  return diffDays + 1; // Include both start and end days
+  return diffDays
 }
 
 export function generateCruiseId(
