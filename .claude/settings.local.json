@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npx shadcn@latest add:*)",
       "Bash(npm install:*)",
-      "Bash(pnpm add:*)"
+      "Bash(pnpm add:*)",
+      "WebFetch(domain:www.cruisetimetables.com)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []

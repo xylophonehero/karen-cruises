@@ -46,10 +46,40 @@
         "date_leaving": "2025-12-14"
       },
       {
+        "id": 8,
+        "ship_name": "Explora II",
+        "date_joining": "2026-01-05",
+        "date_leaving": "2026-02-04"
+      },
+      {
         "id": 7,
         "ship_name": "Azamara Quest",
         "date_joining": "2026-02-08",
         "date_leaving": "2026-03-15"
+      },
+      {
+        "id": 9,
+        "ship_name": "Oceania Regatta",
+        "date_joining": "2026-04-03",
+        "date_leaving": "2026-05-01"
+      },
+      {
+        "id": 10,
+        "ship_name": "Explora I",
+        "date_joining": "2026-05-20",
+        "date_leaving": "2026-06-02"
+      },
+      {
+        "id": 11,
+        "ship_name": "Explora II",
+        "date_joining": "2026-09-07",
+        "date_leaving": "2026-10-05"
+      },
+      {
+        "id": 12,
+        "ship_name": "Explora I",
+        "date_joining": "2026-11-01",
+        "date_leaving": "2027-01-04"
       }
     ]
   }
