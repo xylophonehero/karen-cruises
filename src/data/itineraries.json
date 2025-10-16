@@ -2659,6 +2659,218 @@
           "new_cruise": true
         }
       ]
+    },
+    {
+      "name": "Emerald Azzurra",
+      "itinerary": [
+        {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-06-20",
+          "date_arriving_time": "",
+          "date_leaving": "2026-06-20",
+          "date_leaving_time": "09:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Milos",
+          "country": "Greece",
+          "date_arriving": "2026-06-21",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-06-21",
+          "date_leaving_time": "09:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2026-06-22",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-06-22",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2026-06-23",
+          "date_arriving_time": "07:30 PM",
+          "date_leaving": "2026-06-23",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos",
+          "country": "Greece",
+          "date_arriving": "2026-06-24",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-06-24",
+          "date_leaving_time": "09:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kusadasi",
+          "country": "Turkey",
+          "date_arriving": "2026-06-25",
+          "date_arriving_time": "07:00 AM",
+          "date_leaving": "2026-06-25",
+          "date_leaving_time": "02:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kepez (Çanakkale)",
+          "country": "Turkey",
+          "date_arriving": "2026-06-26",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-06-26",
+          "date_leaving_time": "05:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Istanbul",
+          "country": "Turkey",
+          "date_arriving": "2026-06-27",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-06-27",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Kepez (Çanakkale)",
+          "country": "Turkey",
+          "date_arriving": "2026-06-28",
+          "date_arriving_time": "01:00 PM",
+          "date_leaving": "2026-06-28",
+          "date_leaving_time": "07:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kusadasi",
+          "country": "Turkey",
+          "date_arriving": "2026-06-29",
+          "date_arriving_time": "01:00 PM",
+          "date_leaving": "2026-06-29",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos",
+          "country": "Greece",
+          "date_arriving": "2026-06-30",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-06-30",
+          "date_leaving_time": "09:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2026-07-01",
+          "date_arriving_time": "07:30 PM",
+          "date_leaving": "2026-07-01",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2026-07-02",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-07-02",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Milos",
+          "country": "Greece",
+          "date_arriving": "2026-07-03",
+          "date_arriving_time": "07:30 PM",
+          "date_leaving": "2026-07-03",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-07-04",
+          "date_arriving_time": "06:00 AM",
+          "date_leaving": "2026-07-04",
+          "date_leaving_time": "",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-08-29",
+          "date_arriving_time": "",
+          "date_leaving": "2026-08-29",
+          "date_leaving_time": "07:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2026-08-30",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-08-30",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Patmos",
+          "country": "Greece",
+          "date_arriving": "2026-08-31",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-08-31",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kusadasi",
+          "country": "Turkey",
+          "date_arriving": "2026-09-01",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-09-01",
+          "date_leaving_time": "10:30 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kos",
+          "country": "Greece",
+          "date_arriving": "2026-09-02",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-09-02",
+          "date_leaving_time": "07:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2026-09-03",
+          "date_arriving_time": "07:30 AM",
+          "date_leaving": "2026-09-03",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Paros",
+          "country": "Greece",
+          "date_arriving": "2026-09-04",
+          "date_arriving_time": "08:00 AM",
+          "date_leaving": "2026-09-04",
+          "date_leaving_time": "06:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-09-05",
+          "date_arriving_time": "06:00 AM",
+          "date_leaving": "2026-09-05",
+          "date_leaving_time": "",
+          "new_cruise": false
+        }
+      ]
     }
   ]
 }

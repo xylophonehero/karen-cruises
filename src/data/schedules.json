@@ -93,6 +93,20 @@
         "date_joining": "2026-11-01",
         "date_leaving": "2027-01-04",
         "tags": ["Transatlantic", "Caribbean"]
+      },
+      {
+        "id": 13,
+        "ship_name": "Emerald Azzurra",
+        "date_joining": "2026-06-20",
+        "date_leaving": "2026-07-04",
+        "tags": ["Eastern Mediterranean"]
+      },
+      {
+        "id": 14,
+        "ship_name": "Emerald Azzurra",
+        "date_joining": "2026-08-29",
+        "date_leaving": "2026-09-05",
+        "tags": ["Eastern Mediterranean"]
       }
     ]
   }
