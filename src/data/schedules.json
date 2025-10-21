@@ -81,20 +81,6 @@
         "tags": ["Western Mediterranean"]
       },
       {
-        "id": 11,
-        "ship_name": "Explora II",
-        "date_joining": "2026-09-07",
-        "date_leaving": "2026-10-05",
-        "tags": ["Eastern Mediterranean"]
-      },
-      {
-        "id": 12,
-        "ship_name": "Explora I",
-        "date_joining": "2026-11-01",
-        "date_leaving": "2027-01-04",
-        "tags": ["Transatlantic", "Caribbean"]
-      },
-      {
         "id": 13,
         "ship_name": "Emerald Azzurra",
         "date_joining": "2026-06-20",
@@ -107,6 +93,20 @@
         "date_joining": "2026-08-29",
         "date_leaving": "2026-09-05",
         "tags": ["Eastern Mediterranean"]
+      },
+      {
+        "id": 11,
+        "ship_name": "Explora II",
+        "date_joining": "2026-09-07",
+        "date_leaving": "2026-10-05",
+        "tags": ["Eastern Mediterranean"]
+      },
+      {
+        "id": 12,
+        "ship_name": "Explora I",
+        "date_joining": "2026-11-01",
+        "date_leaving": "2027-01-04",
+        "tags": ["Transatlantic", "Caribbean"]
       }
     ]
   }
