@@ -1299,6 +1299,56 @@
       ]
     },
     {
+      "name": "Seabourn Ovation",
+      "itinerary": [
+        {
+          "port_name": "Greenock (Glasgow)",
+          "country": "Scotland",
+          "date_arriving": "2026-05-09",
+          "date_arriving_time": "",
+          "date_leaving": "2026-05-09",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Belfast",
+          "country": "Northern Ireland",
+          "date_arriving": "2026-05-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-05-10",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Oban",
+          "country": "Scotland",
+          "date_arriving": "2026-05-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-05-11",
+          "date_leaving_time": "6:30 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Ullapool",
+          "country": "Scotland",
+          "date_arriving": "2026-05-12",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-05-12",
+          "date_leaving_time": "6:30 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Leith (Edinburgh)",
+          "country": "Scotland",
+          "date_arriving": "2026-05-14",
+          "date_arriving_time": "1:00 PM",
+          "date_leaving": "2026-05-14",
+          "date_leaving_time": "",
+          "new_cruise": false
+        }
+      ]
+    },
+    {
       "name": "Explora I",
       "itinerary": [
         {

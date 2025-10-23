@@ -74,6 +74,13 @@
         "tags": ["Japan", "Southeast Asia"]
       },
       {
+        "id": 15,
+        "ship_name": "Seabourn Ovation",
+        "date_joining": "2026-05-09",
+        "date_leaving": "2026-05-14",
+        "tags": ["Western Mediterranean"]
+      },
+      {
         "id": 10,
         "ship_name": "Explora I",
         "date_joining": "2026-05-20",
