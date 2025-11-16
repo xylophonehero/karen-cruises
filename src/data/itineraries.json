@@ -752,12 +752,12 @@
           "new_cruise": false
         },
         {
-          "port_name": "Roseau",
-          "country": "Dominica",
+          "port_name": "Saint-Pierre",
+          "country": "Martinique",
           "date_arriving": "2025-12-10",
-          "date_arriving_time": "9:00 AM",
+          "date_arriving_time": "8:00 AM",
           "date_leaving": "2025-12-10",
-          "date_leaving_time": "9:00 PM",
+          "date_leaving_time": "6:00 PM",
           "new_cruise": false
         },
         {
@@ -802,7 +802,7 @@
           "date_arriving": "2026-01-05",
           "date_arriving_time": null,
           "date_leaving": "2026-01-05",
-          "date_leaving_time": "5:00 PM",
+          "date_leaving_time": "",
           "new_cruise": true
         },
         {
