@@ -1,11 +1,12 @@
 import type { Cruise } from "@/types/cruise";
+import { createUTCDate } from "./utils";
 
 // Group back-to-back cruises (cruises where the end date of one is the start date of another)
 export function groupBackToBackCruises(cruises: Cruise[]): Cruise[][] {
   // Sort cruises by departure date
   const sortedCruises = [...cruises].sort(
     (a, b) =>
-      new Date(a.departureDate).getTime() - new Date(b.departureDate).getTime(),
+      createUTCDate(a.departureDate).getTime() - createUTCDate(b.departureDate).getTime(),
   );
 
   const groups: Cruise[][] = [];

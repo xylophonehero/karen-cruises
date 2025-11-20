@@ -2,6 +2,7 @@ import { tv } from "tailwind-variants";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CruiseTimelineItem } from "./cruise-timeline-item";
 import { CruiseSchedule } from "@/types/schedule";
+import { createUTCDate, getTodayUTC } from "@/lib/utils";
 
 interface CruiseTimelineProps {
   cruises: CruiseSchedule[];
@@ -49,13 +50,13 @@ const timelineStyles = tv({
 });
 
 const getCruiseStatus = (cruise: any): "current" | "upcoming" | "past" => {
-  const today = new Date();
-  const joinDate = new Date(cruise.date_joining);
-  const leaveDate = new Date(cruise.date_leaving);
+  const todayUTC = getTodayUTC();
+  const joinDate = createUTCDate(cruise.date_joining);
+  const leaveDate = createUTCDate(cruise.date_leaving);
 
-  if (today >= joinDate && today <= leaveDate) {
+  if (todayUTC >= joinDate && todayUTC <= leaveDate) {
     return "current";
-  } else if (today > leaveDate) {
+  } else if (todayUTC > leaveDate) {
     return "past";
   } else {
     return "upcoming";
@@ -77,14 +78,14 @@ export function CruiseTimeline({
     })
     .sort(
       (a, b) =>
-        new Date(a.date_joining).getTime() - new Date(b.date_joining).getTime(),
+        createUTCDate(a.date_joining).getTime() - createUTCDate(b.date_joining).getTime(),
     );
 
   const completedCruises = cruises
     .filter((c) => getCruiseStatus(c) === "past")
     .sort(
       (a, b) =>
-        new Date(b.date_joining).getTime() - new Date(a.date_joining).getTime(),
+        createUTCDate(b.date_joining).getTime() - createUTCDate(a.date_joining).getTime(),
     );
 
   const upcomingCount = cruises.filter(

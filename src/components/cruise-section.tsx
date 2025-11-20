@@ -1,4 +1,4 @@
-import { formatDate, generateCruiseId, calculateCruiseDuration } from "@/lib/utils";
+import { formatDate, generateCruiseId, calculateCruiseDuration, createUTCDate } from "@/lib/utils";
 import itineraries from "@/data/itineraries.json";
 import { ItineraryTable } from "./itinerary-table";
 import { CruiseSchedule } from "@/types/schedule";
@@ -34,10 +34,10 @@ export function CruiseSection({ cruise }: CruiseSectionProps) {
               .find((s) => cruise.ship_name === s.name)
               ?.itinerary.filter(
                 (itinerary) =>
-                  new Date(itinerary.date_arriving) >=
-                    new Date(cruise.date_joining) &&
-                  new Date(itinerary.date_leaving) <=
-                    new Date(cruise.date_leaving),
+                  createUTCDate(itinerary.date_arriving) >=
+                    createUTCDate(cruise.date_joining) &&
+                  createUTCDate(itinerary.date_leaving) <=
+                    createUTCDate(cruise.date_leaving),
               ) ?? []
           }
           cruiseStartDate={cruise.date_joining}

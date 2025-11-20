@@ -10,18 +10,20 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import { createUTCDate, getTodayUTC } from "@/lib/utils";
 
 const schedule = schedules.person.cruises;
 
 function App() {
-  const today = new Date();
+  // Use UTC date for today to ensure consistent comparisons
+  const todayUTC = getTodayUTC();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const upcomingCruises = schedule.filter(
-    (cruise) => new Date(cruise.date_leaving) > today,
+    (cruise) => createUTCDate(cruise.date_leaving) > todayUTC,
   );
   const archivedCruises = schedule.filter(
-    (cruise) => new Date(cruise.date_leaving) <= today,
+    (cruise) => createUTCDate(cruise.date_leaving) <= todayUTC,
   );
 
   return (

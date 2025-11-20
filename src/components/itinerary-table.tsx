@@ -6,6 +6,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { createUTCDate } from "@/lib/utils";
 
 interface ItineraryItem {
   date_arriving: string;
@@ -19,16 +20,17 @@ interface ItineraryItem {
 }
 
 const formatDateShort = (dateString: string) => {
-  const date = new Date(dateString);
+  const date = createUTCDate(dateString);
   return date.toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 };
 
 const dayDifference = (date1: string, date2: string) => {
-  const date1Obj = new Date(date1);
-  const date2Obj = new Date(date2);
+  const date1Obj = createUTCDate(date1);
+  const date2Obj = createUTCDate(date2);
   return Math.round(
     (date2Obj.getTime() - date1Obj.getTime()) / (1000 * 60 * 60 * 24),
   );
@@ -47,12 +49,17 @@ export function ItineraryTable({
 }: ItineraryTableProps) {
   // Generate array of all cruise days
   const cruiseDays: string[] = [];
-  let currentDate = new Date(cruiseStartDate);
-  const endDate = new Date(cruiseEndDate);
+  let currentDate = createUTCDate(cruiseStartDate);
+  const endDate = createUTCDate(cruiseEndDate);
 
   while (currentDate <= endDate) {
     cruiseDays.push(currentDate.toISOString().split("T")[0]);
-    currentDate.setDate(currentDate.getDate() + 1);
+    // Increment date in UTC
+    currentDate = new Date(Date.UTC(
+      currentDate.getUTCFullYear(),
+      currentDate.getUTCMonth(),
+      currentDate.getUTCDate() + 1
+    ));
   }
 
   if (cruiseDays.length === 0) return null;
@@ -74,9 +81,9 @@ export function ItineraryTable({
           const portForDay =
             items.find((item) => item.date_arriving === dayString) ||
             items.find((item) => {
-              const arriveDate = new Date(item.date_arriving);
-              const leaveDate = new Date(item.date_leaving);
-              const currentDay = new Date(dayString);
+              const arriveDate = createUTCDate(item.date_arriving);
+              const leaveDate = createUTCDate(item.date_leaving);
+              const currentDay = createUTCDate(dayString);
               return currentDay >= arriveDate && currentDay <= leaveDate;
             });
 
@@ -110,8 +117,12 @@ export function ItineraryTable({
             portForDay &&
             !isLastDayOfStay &&
             items.some((item) => {
-              const nextDay = new Date(dayString);
-              nextDay.setDate(nextDay.getDate() + 1);
+              const currentDay = createUTCDate(dayString);
+              const nextDay = new Date(Date.UTC(
+                currentDay.getUTCFullYear(),
+                currentDay.getUTCMonth(),
+                currentDay.getUTCDate() + 1
+              ));
               return item.date_arriving === nextDay.toISOString().split("T")[0];
             });
 
