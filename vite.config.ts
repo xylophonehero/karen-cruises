@@ -8,20 +8,24 @@ import fs from "fs";
  * Vite plugin that generates a data loader module based on environment variables
  * This ensures only the specified schedule JSON file is bundled at build time
  * Itineraries are loaded statically and don't need to be configured
+ * Also dynamically modifies the HTML head based on the schedule file
  */
 function dataLoaderPlugin(): Plugin {
+  let personName: string | null = null;
+  let schedulesPath: string | null = null;
+
   return {
     name: "data-loader-plugin",
     buildStart() {
       // Read env var for schedule file (format: schedule-XXX.json)
       // Fail if not specified
       const schedulesFile = process.env.VITE_SCHEDULES_FILE;
-      
+
       if (!schedulesFile) {
         throw new Error(
           "VITE_SCHEDULES_FILE environment variable is required. " +
-          "Please set it in your .env file or as an environment variable. " +
-          "Example: VITE_SCHEDULES_FILE=schedule-XXX.json"
+            "Please set it in your .env file or as an environment variable. " +
+            "Example: VITE_SCHEDULES_FILE=schedule-XXX.json",
         );
       }
 
@@ -30,7 +34,26 @@ function dataLoaderPlugin(): Plugin {
         return filePath.replace(/^\/?data\//, "").replace(/^\//, "");
       };
 
-      const schedulesPath = normalizePath(schedulesFile);
+      schedulesPath = normalizePath(schedulesFile);
+
+      // Read the schedule file to extract person's name for HTML head
+      const scheduleFilePath = path.resolve(
+        __dirname,
+        "src/data",
+        schedulesPath,
+      );
+
+      try {
+        const scheduleData = JSON.parse(
+          fs.readFileSync(scheduleFilePath, "utf-8"),
+        );
+        personName = scheduleData?.person?.name || null;
+      } catch (error) {
+        console.warn(
+          `Warning: Could not read schedule file to extract person name: ${error}`,
+        );
+        // Continue anyway - we'll use a default title
+      }
 
       // Generate the data loader module
       // Itineraries are always loaded from the same static file
@@ -48,8 +71,49 @@ export function loadSchedules() {
 `;
 
       // Write the generated file
-      const outputPath = path.resolve(__dirname, "src/lib/data-loader-generated.ts");
+      const outputPath = path.resolve(
+        __dirname,
+        "src/lib/data-loader-generated.ts",
+      );
       fs.writeFileSync(outputPath, loaderCode, "utf-8");
+    },
+    transformIndexHtml(html: string) {
+      // Modify the HTML head based on the schedule file
+      if (personName) {
+        // Update title
+        html = html.replace(
+          /<title>.*?<\/title>/,
+          `<title>${personName} - Upcoming Cruises</title>`,
+        );
+
+        // Add or update meta description
+        const metaDescription = `<meta name="description" content="${personName} - Cruise Schedule and Itinerary" />`;
+
+        // Check if description meta tag exists
+        if (html.includes('<meta name="description"')) {
+          html = html.replace(
+            /<meta name="description"[^>]*>/,
+            metaDescription.replace("/>", ""),
+          );
+        } else {
+          // Insert after viewport meta tag
+          html = html.replace(
+            /<meta name="viewport"[^>]*>/,
+            `$&\n    ${metaDescription}`,
+          );
+        }
+
+        // Add or update Open Graph tags
+        const ogTags = `
+    <meta property="og:title" content="${personName} - Upcoming Cruises" />
+    <meta property="og:description" content="${personName} - Cruise Schedule and Itinerary" />
+    <meta property="og:type" content="website" />`;
+
+        // Insert OG tags before closing head tag
+        html = html.replace("</head>", `${ogTags}\n  </head>`);
+      }
+
+      return html;
     },
   };
 }
