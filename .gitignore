@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Generated files
+src/lib/data-loader-generated.ts
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

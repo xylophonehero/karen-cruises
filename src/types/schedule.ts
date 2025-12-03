@@ -11,3 +11,7 @@ export interface PersonSchedule {
   name: string;
   cruises: CruiseSchedule[];
 }
+
+export interface ScheduleData {
+  person: PersonSchedule;
+}

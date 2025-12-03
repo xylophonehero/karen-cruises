@@ -1,5 +1,5 @@
 import { useState } from "react";
-import schedules from "@/data/schedules.json";
+import { loadSchedules } from "@/lib/data-loader";
 import { CruiseSection } from "./components/cruise-section";
 import { CruiseTimeline } from "./components/cruise-timeline";
 import {
@@ -12,7 +12,10 @@ import {
 } from "@/components/ui/drawer";
 import { createUTCDate, getTodayUTC } from "@/lib/utils";
 
-const schedule = schedules.person.cruises;
+const scheduleData = loadSchedules();
+const {
+  person: { cruises: schedule, name },
+} = scheduleData;
 
 function App() {
   // Use UTC date for today to ensure consistent comparisons
@@ -73,16 +76,16 @@ function App() {
       <div className="flex-1 overflow-auto h-full py-8 px-4">
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold mb-12 text-center text-primary">
-            Karen Worrall Cruise Schedule
+            {name} Cruise Schedule
           </h1>
 
           {upcomingCruises.length > 0 && (
             <div id="upcoming" className="mb-12">
               <h2 className="text-3xl font-bold text-primary mb-2">
-                🚢 Upcoming cruise contracts
+                🚢 Upcoming cruises
               </h2>
               <div className="mb-6 text-sm text-white/80">
-                Rows in yellow indicate the start of a new cruise
+                Highlighted rows indicate the start of a new cruise
               </div>
               <div className="flex flex-col gap-4">
                 {upcomingCruises.map((cruise) => (

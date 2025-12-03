@@ -2,7 +2,6 @@
   "ships": [
     {
       "name": "Explora II",
-      "voyage_id": "voyage-ox-2025-03",
       "itinerary": [
         {
           "port_name": "Lisbon",
@@ -2535,7 +2534,6 @@
     },
     {
       "name": "Oceania Regatta",
-      "voyage_id": "REG260403",
       "itinerary": [
         {
           "port_name": "Tokyo",

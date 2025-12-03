@@ -1,0 +1,15 @@
+{
+  "person": {
+    "id": "p001",
+    "name": "Leo Rossi",
+    "cruises": [
+      {
+        "id": 1,
+        "ship_name": "Explora II",
+        "date_joining": "2025-03-28",
+        "date_leaving": "2025-05-21",
+        "tags": ["Western Mediterranean"]
+      }
+    ]
+  }
+}
