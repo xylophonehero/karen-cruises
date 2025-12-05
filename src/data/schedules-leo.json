@@ -4,11 +4,74 @@
     "name": "Leo Rossi",
     "cruises": [
       {
-        "id": 1,
+        "id": "ID148",
+        "ship_name": "Explora I",
+        "date_joining": "2026-02-05",
+        "date_leaving": "2026-02-20",
+        "tags": []
+      },
+      {
+        "id": "ID149",
+        "ship_name": "Explora I",
+        "date_joining": "2026-03-02",
+        "date_leaving": "2026-03-25",
+        "tags": []
+      },
+      {
+        "id": "ID150",
         "ship_name": "Explora II",
-        "date_joining": "2025-03-28",
-        "date_leaving": "2025-05-21",
-        "tags": ["Western Mediterranean"]
+        "date_joining": "2026-04-09",
+        "date_leaving": "2026-05-04",
+        "tags": []
+      },
+      {
+        "id": "ID151",
+        "ship_name": "Explora II",
+        "date_joining": "2026-05-18",
+        "date_leaving": "2026-05-28",
+        "tags": []
+      },
+      {
+        "id": "ID152",
+        "ship_name": "Explora I",
+        "date_joining": "2026-06-09",
+        "date_leaving": "2026-06-29",
+        "tags": []
+      },
+      {
+        "id": "ID153",
+        "ship_name": "Explora II",
+        "date_joining": "2026-07-13",
+        "date_leaving": "2026-07-27",
+        "tags": []
+      },
+      {
+        "id": "ID154",
+        "ship_name": "Explora III",
+        "date_joining": "2026-08-03",
+        "date_leaving": "2026-08-25",
+        "tags": []
+      },
+      {
+        "id": "ID155",
+        "ship_name": "Explora II",
+        "date_joining": "2026-09-10",
+        "date_leaving": "2026-10-05",
+        "tags": []
+      },
+      {
+        "id": "ID156",
+        "ship_name": "Explora II",
+        "date_joining": "2026-11-19",
+        "date_leaving": "2026-12-14",
+        "tags": []
+      },
+      {
+        "id": "ID157",
+        "ship_name": "Explora III",
+        "date_joining": "2026-12-20",
+        "date_leaving": "2027-01-05",
+        "tags": []
       }
     ]
   }
