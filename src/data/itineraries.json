@@ -325,7 +325,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2025-05-20",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Monte Carlo",
@@ -820,7 +820,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-01-05",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "San Andres Island",
@@ -874,7 +874,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-01-15",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Thomas",
@@ -928,7 +928,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-01-25",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Puerto Plata/Amber Cove",
@@ -982,7 +982,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-02-04",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Thomas",
@@ -1036,7 +1036,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-02-14",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Key West",
@@ -1081,7 +1081,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-02-24",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Thomas",
@@ -1234,7 +1234,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-03-18",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Thomas",
@@ -1378,7 +1378,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-04-09",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kings Wharf",
@@ -1432,7 +1432,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-25",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Monaco",
@@ -1459,7 +1459,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-29",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Sorrento",
@@ -1495,7 +1495,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-05-04",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -1513,7 +1513,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-05-08",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -1540,7 +1540,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-05-11",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -1594,7 +1594,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-05-18",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -1648,7 +1648,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-05-25",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -1693,7 +1693,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-06-01",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -1747,7 +1747,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-06-08",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -1801,7 +1801,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-06-15",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -1819,7 +1819,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-06-19",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -1846,7 +1846,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-06-22",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -1909,7 +1909,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-07-10",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -1936,7 +1936,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-07-13",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -1990,7 +1990,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-07-20",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -2044,7 +2044,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-07-27",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -2089,7 +2089,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-03",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Syros",
@@ -2143,7 +2143,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-10",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -2197,7 +2197,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-17",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -2215,7 +2215,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-21",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Bodrum",
@@ -2242,7 +2242,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-24",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Syros",
@@ -2296,7 +2296,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-31",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -2350,7 +2350,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-09-07",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -2368,7 +2368,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-11",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -2395,7 +2395,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-09-14",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -2449,7 +2449,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-21",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -2503,7 +2503,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-09-28",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Patmos",
@@ -2521,7 +2521,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-02",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -2548,7 +2548,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-10-05",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Paros",
@@ -2602,7 +2602,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-12",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Rovinj",
@@ -2656,7 +2656,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-10-19",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Syros",
@@ -2737,7 +2737,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-29",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Zadar",
@@ -2782,7 +2782,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-06",
           "date_leaving_time": "7:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Canakkale",
@@ -2809,7 +2809,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-11-09",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Bodrum",
@@ -2881,7 +2881,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-11-19",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Mykonos",
@@ -2917,7 +2917,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-25",
           "date_leaving_time": "1:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Volos",
@@ -2944,7 +2944,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-11-29",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Iraklion",
@@ -3016,7 +3016,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-12-15",
           "date_leaving_time": "9:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Abu Dhabi",
@@ -3061,7 +3061,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-12-22",
           "date_leaving_time": "7:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Khor Fakkan",
@@ -3106,7 +3106,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-12-29",
           "date_leaving_time": "4:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Fujairah",
@@ -3151,7 +3151,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2027-01-05",
           "date_leaving_time": "9:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Sur",
@@ -3805,7 +3805,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-01-13",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
@@ -3904,7 +3904,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-01-28",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Thomas",
@@ -3958,7 +3958,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-02-05",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Tortola",
@@ -4003,7 +4003,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-02-12",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Puerto Plata/Amber Cove",
@@ -4129,7 +4129,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-03-02",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St Johns",
@@ -4174,7 +4174,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-03-09",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "San Juan",
@@ -4228,7 +4228,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-03-25",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Marseille",
@@ -4264,7 +4264,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-03-29",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Valencia",
@@ -4291,7 +4291,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-02",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Naples",
@@ -4363,7 +4363,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-13",
           "date_leaving_time": "7:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Zadar",
@@ -4408,7 +4408,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-21",
           "date_leaving_time": "4:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cesme",
@@ -4435,7 +4435,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-04-24",
           "date_leaving_time": "7:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Milos",
@@ -4498,7 +4498,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-05-03",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cadiz",
@@ -4570,7 +4570,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-05-13",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Sorrento",
@@ -4624,7 +4624,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-05-20",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Marseille",
@@ -4678,7 +4678,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-05-27",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Port Mahon",
@@ -4723,7 +4723,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-06-02",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Monaco",
@@ -4741,7 +4741,7 @@
           "date_arriving_time": "9:00 AM",
           "date_leaving": "2026-06-09",
           "date_leaving_time": "9:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Sorrento",
@@ -4786,7 +4786,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-06-15",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Ibiza",
@@ -4840,7 +4840,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-06-22",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cannes",
@@ -4894,7 +4894,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-06-29",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Naples",
@@ -5002,7 +5002,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-07-13",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Porto Santo Stefano",
@@ -5056,7 +5056,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-07-20",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cannes",
@@ -5110,7 +5110,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-07-27",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Naples",
@@ -5173,7 +5173,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-03",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Ibiza",
@@ -5227,7 +5227,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-10",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Porto Santo Stefano",
@@ -5281,7 +5281,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-17",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cannes",
@@ -5335,7 +5335,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-24",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Naples",
@@ -5398,7 +5398,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-31",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Ibiza",
@@ -5452,7 +5452,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-09-07",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Porto Santo Stefano",
@@ -5506,7 +5506,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-14",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Porto Cervo",
@@ -5560,7 +5560,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-09-21",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Naples",
@@ -5623,7 +5623,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-28",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Ibiza",
@@ -5677,7 +5677,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-10-05",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "La Spezia",
@@ -5731,7 +5731,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-12",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Marseille",
@@ -5803,7 +5803,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-21",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Alicante",
@@ -5866,7 +5866,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-01",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cadiz",
@@ -5920,7 +5920,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-17",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Progreso",
@@ -5965,7 +5965,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-25",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Willemstad",
@@ -6019,7 +6019,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-05",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Cozumel",
@@ -6073,7 +6073,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-13",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
@@ -6118,7 +6118,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-20",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Basseterre",
@@ -6163,7 +6163,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-27",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Puerto Plata/Amber Cove",
@@ -6330,7 +6330,7 @@
           "date_arriving_time": "6:00 AM",
           "date_leaving": "2025-06-21",
           "date_leaving_time": null,
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Barcelona",
@@ -6749,7 +6749,7 @@
           "date_arriving": "2026-06-20",
           "date_arriving_time": "",
           "date_leaving": "2026-06-20",
-          "date_leaving_time": "09:00 PM",
+          "date_leaving_time": "07:00 PM",
           "new_cruise": true
         },
         {
@@ -6956,6 +6956,15 @@
       "name": "Explora III",
       "itinerary": [
         {
+          "port_name": "Barcelona",
+          "country": "Spain",
+          "date_arriving": "2026-08-03",
+          "date_arriving_time": null,
+          "date_leaving": "2026-08-03",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": true
+        },
+        {
           "port_name": "Palma De Mallorca",
           "country": "Spain",
           "date_arriving": "2026-08-04",
@@ -7007,7 +7016,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-10",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Porto",
@@ -7061,7 +7070,7 @@
           "date_arriving_time": "7:00 AM",
           "date_leaving": "2026-08-17",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Mandal",
@@ -7115,7 +7124,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-08-25",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Tallinn",
@@ -7169,7 +7178,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-02",
           "date_leaving_time": "8:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Aarhus",
@@ -7259,7 +7268,7 @@
           "date_arriving_time": "3:00 PM",
           "date_leaving": "2026-09-17",
           "date_leaving_time": "6:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Isafjord",
@@ -7322,7 +7331,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-29",
           "date_leaving_time": "4:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Sept-Iles",
@@ -7475,7 +7484,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-25",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
@@ -7565,7 +7574,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-08",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Providenciales",
@@ -7673,7 +7682,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-11-22",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
@@ -7763,7 +7772,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-06",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
@@ -7853,7 +7862,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-12-20",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Ocho Rios",
@@ -7961,7 +7970,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2027-01-05",
           "date_leaving_time": "5:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "St John",
