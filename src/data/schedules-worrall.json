@@ -1,0 +1,24 @@
+{
+  "person": {
+    "id": "p001",
+    "name": "Worrall",
+    "cruises": [
+      {
+        "id": "ID222",
+        "category": "Caribbean",
+        "ship_name": "Renaissance",
+        "date_joining": "2026-01-12",
+        "date_leaving": "2026-01-26",
+        "tags": []
+      },
+      {
+        "id": "ID223",
+        "category": "Asia",
+        "ship_name": "Celebrity Millennium",
+        "date_joining": "2026-03-08",
+        "date_leaving": "2026-04-09",
+        "tags": []
+      }
+    ]
+  }
+}

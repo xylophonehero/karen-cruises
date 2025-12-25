@@ -6664,7 +6664,7 @@
           "date_arriving_time": "07:30 AM",
           "date_leaving": "2026-04-15",
           "date_leaving_time": "7:00 PM",
-          "new_cruise": false
+          "new_cruise": true
         },
         {
           "port_name": "Kagoshima",
@@ -8016,6 +8016,574 @@
           "date_leaving": "2027-01-12",
           "date_leaving_time": "5:00 PM",
           "new_cruise": false
+        }
+      ]
+    },
+    {
+      "name": "Renaissance",
+      "itinerary": [
+        {
+          "port_name": "Fort de France",
+          "country": "Martinique",
+          "date_arriving": "2026-01-04",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-01-04",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Johns",
+          "country": "Antigua",
+          "date_arriving": "2026-01-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-05",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Philipsburg",
+          "country": "St. Maarten",
+          "date_arriving": "2026-01-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-06",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tortola",
+          "country": "British Virgin Islands",
+          "date_arriving": "2026-01-07",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-07",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Oranjestad",
+          "country": "Aruba",
+          "date_arriving": "2026-01-09",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-01-09",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Willemstad",
+          "country": "Curacao",
+          "date_arriving": "2026-01-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-10",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bridgetown",
+          "country": "Barbados",
+          "date_arriving": "2026-01-12",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2026-01-12",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Fort de France",
+          "country": "Martinique",
+          "date_arriving": "2026-01-13",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2026-01-13",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Johns",
+          "country": "Antigua",
+          "date_arriving": "2026-01-15",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-15",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Philipsburg",
+          "country": "St. Maarten",
+          "date_arriving": "2026-01-16",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-16",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tortola",
+          "country": "British Virgin Islands",
+          "date_arriving": "2026-01-17",
+          "date_arriving_time": "8:30 AM",
+          "date_leaving": "2026-01-17",
+          "date_leaving_time": "5:30 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Basseterre",
+          "country": "St. Kitts",
+          "date_arriving": "2026-01-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-18",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Oranjestad",
+          "country": "Aruba",
+          "date_arriving": "2026-01-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-20",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Willemstad",
+          "country": "Curacao",
+          "date_arriving": "2026-01-21",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-21",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Castries",
+          "country": "St Lucia",
+          "date_arriving": "2026-01-23",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-01-23",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Georges",
+          "country": "Grenada",
+          "date_arriving": "2026-01-24",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-24",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pointe A Pitre",
+          "country": "Guadeloupe",
+          "date_arriving": "2026-01-25",
+          "date_arriving_time": "1:00 PM",
+          "date_leaving": "2026-01-25",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bridgetown",
+          "country": "Barbados",
+          "date_arriving": "2026-01-26",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2026-01-27",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Scarborough",
+          "country": "Tobago",
+          "date_arriving": "2026-01-28",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-28",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Oranjestad",
+          "country": "Aruba",
+          "date_arriving": "2026-01-30",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-01-30",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Willemstad",
+          "country": "Curacao",
+          "date_arriving": "2026-01-31",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-01-31",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kralendijk",
+          "country": "Bonaire",
+          "date_arriving": "2026-02-01",
+          "date_arriving_time": "6:00 AM",
+          "date_leaving": "2026-02-01",
+          "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Pointe A Pitre",
+          "country": "Guadeloupe",
+          "date_arriving": "2026-02-03",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-02-03",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Johns",
+          "country": "Antigua",
+          "date_arriving": "2026-02-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-05",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Philipsburg",
+          "country": "St. Maarten",
+          "date_arriving": "2026-02-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-02-06",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tortola",
+          "country": "British Virgin Islands",
+          "date_arriving": "2026-02-07",
+          "date_arriving_time": "8:30 AM",
+          "date_leaving": "2026-02-07",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        }
+      ]
+    },
+    {
+      "name": "Celebrity Millennium",
+      "itinerary": [
+        {
+          "port_name": "Singapore",
+          "country": "Singapore",
+          "date_arriving": "2026-03-03",
+          "date_arriving_time": null,
+          "date_leaving": "2026-03-03",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "date_arriving": "2026-03-05",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-05",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hong Kong",
+          "country": "China",
+          "date_arriving": "2026-03-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-09",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Keelung",
+          "country": "Taiwan",
+          "date_arriving": "2026-03-11",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-11",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Nagasaki",
+          "country": "Japan",
+          "date_arriving": "2026-03-13",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-13",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kagoshima",
+          "country": "Japan",
+          "date_arriving": "2026-03-14",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-14",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Yokohama",
+          "country": "Japan",
+          "date_arriving": "2026-03-16",
+          "date_arriving_time": "6:30 AM",
+          "date_leaving": "2026-03-16",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-03-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-19",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kochi",
+          "country": "Japan",
+          "date_arriving": "2026-03-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-20",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hiroshima",
+          "country": "Japan",
+          "date_arriving": "2026-03-21",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-03-21",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cheju",
+          "country": "South Korea",
+          "date_arriving": "2026-03-23",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-23",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Nagasaki",
+          "country": "Japan",
+          "date_arriving": "2026-03-24",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-24",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kagoshima",
+          "country": "Japan",
+          "date_arriving": "2026-03-25",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-25",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Shimizu",
+          "country": "Japan",
+          "date_arriving": "2026-03-27",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-27",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Yokohama",
+          "country": "Japan",
+          "date_arriving": "2026-03-28",
+          "date_arriving_time": "6:30 AM",
+          "date_leaving": "2026-03-28",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Shimizu",
+          "country": "Japan",
+          "date_arriving": "2026-03-29",
+          "date_arriving_time": "7:45 AM",
+          "date_leaving": "2026-03-29",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-03-31",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-01",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kochi",
+          "country": "Japan",
+          "date_arriving": "2026-04-02",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-02",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hiroshima",
+          "country": "Japan",
+          "date_arriving": "2026-04-03",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-04-03",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cheju",
+          "country": "South Korea",
+          "date_arriving": "2026-04-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-05",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Nagasaki",
+          "country": "Japan",
+          "date_arriving": "2026-04-06",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-06",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kagoshima",
+          "country": "Japan",
+          "date_arriving": "2026-04-07",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-07",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-04-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-12",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kochi",
+          "country": "Japan",
+          "date_arriving": "2026-04-13",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-13",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hiroshima",
+          "country": "Japan",
+          "date_arriving": "2026-04-14",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-04-14",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Cheju",
+          "country": "South Korea",
+          "date_arriving": "2026-04-16",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-16",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Nagasaki",
+          "country": "Japan",
+          "date_arriving": "2026-04-17",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-17",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kagoshima",
+          "country": "Japan",
+          "date_arriving": "2026-04-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-18",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Shimizu",
+          "country": "Japan",
+          "date_arriving": "2026-04-20",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-20",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Shimizu",
+          "country": "Japan",
+          "date_arriving": "2026-04-22",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-22",
+          "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-04-23",
+          "date_arriving_time": "11:00 AM",
+          "date_leaving": "2026-04-24",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kochi",
+          "country": "Japan",
+          "date_arriving": "2026-04-25",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-25",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Busan",
+          "country": "South Korea",
+          "date_arriving": "2026-04-27",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-27",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Nagasaki",
+          "country": "Japan",
+          "date_arriving": "2026-04-28",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-28",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kagoshima",
+          "country": "Japan",
+          "date_arriving": "2026-04-29",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-29",
+          "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Yokohama",
+          "country": "Japan",
+          "date_arriving": "2026-04-09",
+          "date_arriving_time": "6:30 AM",
+          "date_leaving": "2026-04-09",
+          "date_leaving_time": null,
+          "new_cruise": true
         }
       ]
     }
