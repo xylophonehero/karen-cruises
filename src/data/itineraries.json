@@ -8586,6 +8586,146 @@
           "new_cruise": true
         }
       ]
+    },
+    {
+      "name": "Silver Moon",
+      "itinerary": [
+        {
+          "port_name": "Hong Kong",
+          "country": "China",
+          "date_arriving": "2026-03-09",
+          "date_arriving_time": null,
+          "date_leaving": "2026-03-09",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Kaohsiung",
+          "country": "Taiwan",
+          "date_arriving": "2026-03-11",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-11",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Incheon",
+          "country": "South Korea",
+          "date_arriving": "2026-03-14",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-03-15",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Busan",
+          "country": "South Korea",
+          "date_arriving": "2026-03-17",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-17",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kochi",
+          "country": "Japan",
+          "date_arriving": "2026-03-19",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-19",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-03-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-21",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tokyo",
+          "country": "Japan",
+          "date_arriving": "2026-03-23",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-23",
+          "date_leaving_time": "07:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Kobe/Osaka",
+          "country": "Japan",
+          "date_arriving": "2026-03-25",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-03-26",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hiroshima",
+          "country": "Japan",
+          "date_arriving": "2026-03-28",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-28",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Fukuoka",
+          "country": "Japan",
+          "date_arriving": "2026-03-29",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-03-29",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Busan",
+          "country": "South Korea",
+          "date_arriving": "2026-03-30",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-03-30",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Kanazawa",
+          "country": "Japan",
+          "date_arriving": "2026-04-01",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2026-04-01",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Aomori",
+          "country": "Japan",
+          "date_arriving": "2026-04-03",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-03",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hakodate",
+          "country": "Japan",
+          "date_arriving": "2026-04-04",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-04",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tokyo",
+          "country": "Japan",
+          "date_arriving": "2026-04-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-04-06",
+          "date_leaving_time": "12:00 AM",
+          "new_cruise": false
+        }
+      ]
     }
   ]
 }
