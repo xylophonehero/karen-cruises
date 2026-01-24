@@ -2368,7 +2368,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-09-11",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": true
+          "new_cruise": false
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -2521,7 +2521,7 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-10-02",
           "date_leaving_time": "2:00 AM",
-          "new_cruise": true
+          "new_cruise": false
         },
         {
           "port_name": "Kusadasi (Ephesus)",
@@ -6190,6 +6190,204 @@
           "date_arriving_time": "9:00 AM",
           "date_leaving": "2026-12-31",
           "date_leaving_time": "4:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Jost Van Dyke",
+          "country": "British Virgin Islands",
+          "date_arriving": "2027-01-01",
+          "date_arriving_time": "12:00 PM",
+          "date_leaving": "2027-01-01",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Basseterre",
+          "country": "St. Kitts",
+          "date_arriving": "2027-01-02",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-02",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Thomas",
+          "country": "US Virgin Islands",
+          "date_arriving": "2027-01-03",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-03",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "San Juan",
+          "country": "Puerto Rico",
+          "date_arriving": "2027-01-04",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-04",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Philipsburg",
+          "country": "St. Maarten",
+          "date_arriving": "2027-01-05",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-05",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Johns",
+          "country": "Antigua",
+          "date_arriving": "2027-01-06",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-06",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Montserrat",
+          "country": "Montserrat",
+          "date_arriving": "2027-01-07",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-07",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Tortola",
+          "country": "British Virgin Islands",
+          "date_arriving": "2027-01-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-08",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Miami",
+          "country": "Florida",
+          "date_arriving": "2027-01-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-11",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Puerto Plata/Amber Cove",
+          "country": "Dominican Republic",
+          "date_arriving": "2027-01-13",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-13",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Samana",
+          "country": "Dominican Republic",
+          "date_arriving": "2027-01-14",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-14",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "San Juan",
+          "country": "Puerto Rico",
+          "date_arriving": "2027-01-15",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-15",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "St Thomas",
+          "country": "US Virgin Islands",
+          "date_arriving": "2027-01-16",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-16",
+          "date_leaving_time": "8:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Virgin Gorda",
+          "country": "British Virgin Islands",
+          "date_arriving": "2027-01-17",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-17",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Miami",
+          "country": "Florida",
+          "date_arriving": "2027-01-20",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-20",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Ocho Rios",
+          "country": "Jamaica",
+          "date_arriving": "2027-01-22",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-22",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santo Tomas De Castilla",
+          "country": "Guatemala",
+          "date_arriving": "2027-01-24",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-24",
+          "date_leaving_time": "6:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Roatan",
+          "country": "Honduras",
+          "date_arriving": "2027-01-25",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-25",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Belize City",
+          "country": "Belize",
+          "date_arriving": "2027-01-26",
+          "date_arriving_time": "7:00 AM",
+          "date_leaving": "2027-01-26",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Key West",
+          "country": "Florida",
+          "date_arriving": "2027-01-28",
+          "date_arriving_time": "10:00 AM",
+          "date_leaving": "2027-01-28",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Miami",
+          "country": "Florida",
+          "date_arriving": "2027-01-29",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2027-01-29",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Puerto Plata/Amber Cove",
+          "country": "Dominican Republic",
+          "date_arriving": "2027-01-31",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2027-01-31",
+          "date_leaving_time": "7:00 PM",
           "new_cruise": false
         }
       ]
