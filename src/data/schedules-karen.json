@@ -89,15 +89,15 @@
       },
       {
         "id": 13,
-        "ship_name": "Emerald Azzurra",
-        "date_joining": "2026-06-20",
-        "date_leaving": "2026-07-04",
+        "ship_name": "Emerald Kaia",
+        "date_joining": "2026-06-06",
+        "date_leaving": "2026-06-20",
         "tags": ["Eastern Mediterranean"]
       },
       {
         "id": 14,
         "ship_name": "Emerald Azzurra",
-        "date_joining": "2026-08-29",
+        "date_joining": "2026-08-22",
         "date_leaving": "2026-09-05",
         "tags": ["Eastern Mediterranean"]
       },

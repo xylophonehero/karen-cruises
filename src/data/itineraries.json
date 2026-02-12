@@ -7095,6 +7095,96 @@
           "new_cruise": false
         },
         {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-08-22",
+          "date_arriving_time": "6:00 AM",
+          "date_leaving": "2026-08-22",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Delos",
+          "country": "Greece",
+          "date_arriving": "2026-08-23",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-08-23",
+          "date_leaving_time": "11:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2026-08-23",
+          "date_arriving_time": "12:30 PM",
+          "date_leaving": "2026-08-23",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Bodrum",
+          "country": "Turkey",
+          "date_arriving": "2026-08-24",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-08-24",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Rhodes",
+          "country": "Greece",
+          "date_arriving": "2026-08-25",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-08-25",
+          "date_leaving_time": "5:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Santorini",
+          "country": "Greece",
+          "date_arriving": "2026-08-26",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-08-26",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Chania, Crete Island",
+          "country": "Greece",
+          "date_arriving": "2026-08-27",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-08-27",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Hydra",
+          "country": "Greece",
+          "date_arriving": "2026-08-28",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-08-28",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piraeus",
+          "country": "Greece",
+          "date_arriving": "2026-08-29",
+          "date_arriving_time": "6:00 AM",
+          "date_leaving": "2026-08-29",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Mykonos",
+          "country": "Greece",
+          "date_arriving": "2026-08-30",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-08-30",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
           "port_name": "Patmos",
           "country": "Greece",
           "date_arriving": "2026-08-31",
@@ -8921,6 +9011,128 @@
           "date_arriving_time": "8:00 AM",
           "date_leaving": "2026-04-06",
           "date_leaving_time": "12:00 AM",
+          "new_cruise": false
+        }
+      ]
+    },
+    {
+      "name": "Emerald Kaia",
+      "itinerary": [
+        {
+          "port_name": "Dubrovnik",
+          "country": "Croatia",
+          "date_arriving": "2026-06-06",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-07",
+          "date_leaving_time": "6:00 AM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Split",
+          "country": "Croatia",
+          "date_arriving": "2026-06-08",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-09",
+          "date_leaving_time": "5:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Zadar",
+          "country": "Croatia",
+          "date_arriving": "2026-06-09",
+          "date_arriving_time": "2:00 PM",
+          "date_leaving": "2026-06-09",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Opatija",
+          "country": "Croatia",
+          "date_arriving": "2026-06-10",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-10",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Piran",
+          "country": "Slovenia",
+          "date_arriving": "2026-06-11",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-11",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Venice",
+          "country": "Italy",
+          "date_arriving": "2026-06-12",
+          "date_arriving_time": "9:00 AM",
+          "date_leaving": "2026-06-13",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": true
+        },
+        {
+          "port_name": "Piran",
+          "country": "Slovenia",
+          "date_arriving": "2026-06-14",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-14",
+          "date_leaving_time": "7:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Mali Lošinj",
+          "country": "Croatia",
+          "date_arriving": "2026-06-15",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-15",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Senj",
+          "country": "Croatia",
+          "date_arriving": "2026-06-16",
+          "date_arriving_time": "7:30 AM",
+          "date_leaving": "2026-06-16",
+          "date_leaving_time": "9:00 AM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Baška, Krk Island",
+          "country": "Croatia",
+          "date_arriving": "2026-06-16",
+          "date_arriving_time": "10:30 AM",
+          "date_leaving": "2026-06-16",
+          "date_leaving_time": "11:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Opatija",
+          "country": "Croatia",
+          "date_arriving": "2026-06-17",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-17",
+          "date_leaving_time": "9:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Rovinj",
+          "country": "Croatia",
+          "date_arriving": "2026-06-18",
+          "date_arriving_time": "8:00 AM",
+          "date_leaving": "2026-06-18",
+          "date_leaving_time": "10:00 PM",
+          "new_cruise": false
+        },
+        {
+          "port_name": "Venice",
+          "country": "Italy",
+          "date_arriving": "2026-06-19",
+          "date_arriving_time": "8:30 AM",
+          "date_leaving": "2026-06-19",
+          "date_leaving_time": "11:59 PM",
           "new_cruise": false
         }
       ]
